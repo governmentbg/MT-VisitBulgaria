@@ -1,0 +1,116 @@
+# Disable New Architecture
+ENV['RCT_NEW_ARCH_ENABLED'] = '0'
+
+# Resolve react_native_pods.rb with node to allow for hoisting
+
+require Pod::Executable.execute_command('node', ['-p',
+  'require.resolve(
+    "react-native/scripts/react_native_pods.rb",
+    {paths: [process.argv[1]]},
+  )', __dir__]).strip
+
+require Pod::Executable.execute_command('node', ['-p',
+  'require.resolve(
+    "react-native-permissions/scripts/setup.rb",
+    {paths: [process.argv[1]]},
+  )', __dir__]).strip
+
+platform :ios, min_ios_version_supported
+prepare_react_native_project!
+
+# Workaround: CocoaPods does not yet support visionOS platform spec.
+# Stub it out so podspecs referencing s.visionos do not crash.
+unless Pod::Specification.method_defined?(:visionos)
+  class Pod::Specification
+    def visionos
+      @visionos_proxy ||= Struct.new(:deployment_target).new
+    end
+  end
+end
+
+setup_permissions([
+  'LocationWhenInUse',
+])
+
+linkage = ENV['USE_FRAMEWORKS']
+if linkage != nil
+  Pod::UI.puts "Configuring Pod with #{linkage}ally linked Frameworks".green
+  use_frameworks! :linkage => linkage.to_sym
+end
+
+
+
+# Map custom build configurations so CocoaPods picks the right xcconfig
+# (debug vs release) for each one.
+project 'VisitBulgaria', {
+  'Debug'              => :debug,
+  'Debug-Staging'      => :debug,
+  'Debug-Production'   => :debug,
+  'Release'            => :release,
+  'Release-Staging'    => :release,
+  'Release-Production' => :release,
+}
+
+target 'VisitBulgaria' do
+  config = use_native_modules!
+
+  # React Native Maps dependencies
+  rn_maps_path = '../node_modules/react-native-maps'
+  pod 'react-native-google-maps', :path => rn_maps_path
+
+  pod 'react-native-config', :path => '../node_modules/react-native-config'
+
+  # For extensions without React dependencies
+  pod 'react-native-config/Extension', :path => '../node_modules/react-native-config'
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # An absolute path to your application root.
+    :app_path => "#{Pod::Config.instance.installation_root}/..",
+    # Hermes is now enabled by default.
+    :hermes_enabled => true,
+    # Disable new architecture
+    :fabric_enabled => false,
+    :new_arch_enabled => false
+  )
+
+  post_install do |installer|
+    # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202
+    react_native_post_install(
+      installer,
+      config[:reactNativePath],
+      :mac_catalyst_enabled => false,
+      # :ccache_enabled => true
+    )
+
+    # Workaround for fmt consteval bug with Xcode 26 / Apple Clang
+    installer.pods_project.targets.each do |target|
+      next unless target.name == 'fmt'
+      target.build_configurations.each do |config|
+        flags = config.build_settings['OTHER_CPLUSPLUSFLAGS'] || ['$(inherited)']
+        flags = flags.is_a?(String) ? flags.split(' ') : flags.dup
+        flags << '-DFMT_USE_CONSTEVAL=0' unless flags.include?('-DFMT_USE_CONSTEVAL=0')
+        config.build_settings['OTHER_CPLUSPLUSFLAGS'] = flags
+      end
+    end
+
+    # Patch fmt header to respect -D flag (survives pod install)
+    fmt_base = File.join(__dir__, 'Pods', 'fmt', 'include', 'fmt', 'base.h')
+    if File.exist?(fmt_base)
+      content = File.read(fmt_base)
+      unless content.include?('#ifndef FMT_USE_CONSTEVAL')
+        content.sub!(
+          '// Detect consteval, C++20 constexpr extensions and std::is_constant_evaluated.',
+          "// Detect consteval, C++20 constexpr extensions and std::is_constant_evaluated.\n#ifndef FMT_USE_CONSTEVAL"
+        )
+        content.sub!(
+          /^(#else\n#  define FMT_USE_CONSTEVAL 0\n#endif)$/,
+          "\\1\n#endif"
+        )
+        File.chmod(0644, fmt_base)
+        File.write(fmt_base, content)
+      end
+    end
+  end
+end
+

@@ -1,0 +1,26 @@
+{
+  "trackOf": "Piste {{current}} sur {{total}}",
+  "audioGuides": "Guides audio ({{count}})",
+  "guide": "{{count}} guide",
+  "guide_other": "{{count}} guides",
+  "playAll": "Tout lire",
+  "noTranscription": "Aucune transcription disponible",
+  "transcription": "Transcription",
+  "audioGuide": "Guide audio",
+  "minutesLanguage": "{{minutes}} min \u2022 {{language}}",
+  "protected": "Protégé",
+  "tapToStart": "Appuyez sur lecture pour démarrer le guide audio",
+  "segmentsPreview": "{{count}} segments \u2022 Appuyez sur lecture pour la transcription complète",
+  "a11y": {
+    "playPause": "Lecture ou pause",
+    "skipForward": "Avancer de 15 secondes",
+    "skipBackward": "Reculer de 15 secondes",
+    "nextTrack": "Piste suivante",
+    "previousTrack": "Piste précédente",
+    "seekSlider": "Progression audio",
+    "closePlayer": "Fermer le lecteur",
+    "playGuide": "Lire {{title}}",
+    "playAll": "Lire tous les guides",
+    "transcriptionSeek": "Aller à {{time}}"
+  }
+}

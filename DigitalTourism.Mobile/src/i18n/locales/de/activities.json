@@ -1,0 +1,22 @@
+{
+  "title": "Aktivität",
+  "about": "Über",
+  "difficulty": "Schwierigkeit",
+  "duration": "Dauer",
+  "season": "Saison",
+  "elevation": "Höhe",
+  "distance": "Entfernung",
+  "minimumAge": "Mindestalter",
+  "groupSize": "Gruppengröße",
+  "equipment": "Ausrüstung gestellt",
+  "whatToBring": "Was mitbringen",
+  "includes": "Inklusive",
+  "call": "Anrufen",
+  "makeReservation": "Reservieren",
+  "similar": "Ähnlich",
+  "upcomingDates": "Kommende Termine",
+  "notFound": {
+    "title": "Aktivität nicht gefunden",
+    "message": "Die gesuchte Aktivität existiert nicht oder wurde entfernt."
+  }
+}

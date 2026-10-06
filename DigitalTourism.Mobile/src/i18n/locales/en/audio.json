@@ -1,0 +1,26 @@
+{
+  "trackOf": "Track {{current}} of {{total}}",
+  "audioGuides": "Audio Guides ({{count}})",
+  "guide": "{{count}} guide",
+  "guide_other": "{{count}} guides",
+  "playAll": "Play All",
+  "noTranscription": "No transcription available",
+  "transcription": "Transcription",
+  "audioGuide": "Audio Guide",
+  "minutesLanguage": "{{minutes}} min \u2022 {{language}}",
+  "protected": "Protected",
+  "tapToStart": "Tap play to start the audio guide",
+  "segmentsPreview": "{{count}} segments \u2022 Tap play to see full transcription",
+  "a11y": {
+    "playPause": "Play or pause audio",
+    "skipForward": "Skip forward 15 seconds",
+    "skipBackward": "Skip backward 15 seconds",
+    "nextTrack": "Next track",
+    "previousTrack": "Previous track",
+    "seekSlider": "Audio progress",
+    "closePlayer": "Close audio player",
+    "playGuide": "Play {{title}}",
+    "playAll": "Play all guides",
+    "transcriptionSeek": "Seek to {{time}}"
+  }
+}

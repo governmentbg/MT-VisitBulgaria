@@ -1,0 +1,246 @@
+@import '@payloadcms/ui/scss';
+
+// Animation for skeleton loading
+@keyframes analytics-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.analytics {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  &__period-selector {
+    width: 180px;
+  }
+
+  // Error banner
+  &__error {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: var(--theme-error-50);
+    border-radius: 8px;
+    border: 1px solid var(--theme-error-200);
+
+    &-title {
+      color: var(--theme-error-600);
+      font-weight: 500;
+    }
+
+    &-message {
+      color: var(--theme-error-500);
+      font-size: 0.875rem;
+      margin-top: 0.25rem;
+    }
+  }
+
+  // Stats grid
+  &__stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  // Section grid (for demographics and traffic sources)
+  &__sections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  // Experiences section
+  &__experiences {
+    margin-top: 1rem;
+  }
+
+  // No data message
+  &__no-data {
+    text-align: center;
+    padding: 2rem;
+    color: var(--theme-elevation-500);
+  }
+}
+
+// Stat card component
+.stat-card {
+  padding: 1.25rem;
+  background-color: var(--theme-elevation-50);
+  border-radius: 8px;
+  border: 1px solid var(--theme-elevation-150);
+  transition: opacity 0.2s;
+
+  &--loading {
+    opacity: 0.7;
+  }
+
+  &__label {
+    font-size: 0.75rem;
+    color: var(--theme-elevation-600);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  &__value {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--theme-elevation-900);
+  }
+}
+
+// Section card component
+.section-card {
+  padding: 1.5rem;
+  background-color: var(--theme-elevation-50);
+  border-radius: 8px;
+  border: 1px solid var(--theme-elevation-150);
+  transition: opacity 0.2s;
+
+  &--loading {
+    opacity: 0.7;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    color: var(--theme-elevation-800);
+  }
+}
+
+// Skeleton loading pulse
+.skeleton-pulse {
+  background-color: var(--theme-elevation-100);
+  border-radius: 4px;
+  animation: analytics-pulse 1.5s ease-in-out infinite;
+}
+
+// Chart skeleton
+.chart-skeleton {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    text-align: center;
+    color: var(--theme-elevation-500);
+  }
+
+  &__text {
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Table skeleton
+.table-skeleton {
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--theme-elevation-100);
+    }
+  }
+}
+
+// Data table (shared styles for all analytics tables)
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  &__header-row {
+    border-bottom: 1px solid var(--theme-elevation-200);
+  }
+
+  &__header-cell {
+    padding: 0.75rem 0;
+    font-size: 0.75rem;
+    color: var(--theme-elevation-600);
+    font-weight: 500;
+
+    &--left {
+      text-align: left;
+    }
+
+    &--right {
+      text-align: right;
+    }
+  }
+
+  &__row {
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--theme-elevation-150);
+    }
+  }
+
+  &__cell {
+    padding: 0.75rem 0;
+    font-size: 0.875rem;
+
+    &--left {
+      text-align: left;
+    }
+
+    &--right {
+      text-align: right;
+    }
+
+    &--bold {
+      font-weight: 500;
+    }
+
+    &--muted {
+      color: var(--theme-elevation-500);
+    }
+
+    &--secondary {
+      color: var(--theme-elevation-600);
+    }
+  }
+
+  // Traffic source specific
+  &__source {
+    font-weight: 500;
+  }
+
+  &__medium {
+    color: var(--theme-elevation-500);
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .analytics {
+    &__header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    &__period-selector {
+      width: 100%;
+    }
+
+    &__sections-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}

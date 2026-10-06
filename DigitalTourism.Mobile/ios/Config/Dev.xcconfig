@@ -1,0 +1,4 @@
+PRODUCT_BUNDLE_IDENTIFIER = com.visitbulgaria.app.dev
+APP_DISPLAY_NAME = VB Dev
+DEEP_LINK_SCHEME = visitbulgaria-dev
+ENVFILE = .env.dev

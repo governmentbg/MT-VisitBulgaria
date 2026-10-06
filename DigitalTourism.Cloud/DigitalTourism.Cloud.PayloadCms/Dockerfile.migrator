@@ -1,0 +1,50 @@
+# Dockerfile for Payload CMS migrations
+# This builds only the migrator stage with full node_modules for payload CLI
+
+FROM node:24.11.1-alpine AS base
+
+# Install dependencies only when needed
+FROM base AS deps
+RUN apk add --no-cache libc6-compat
+WORKDIR /app
+
+# Install dependencies based on the preferred package manager
+COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
+COPY patches ./patches
+RUN \
+  if [ -f yarn.lock ]; then yarn --frozen-lockfile; \
+  elif [ -f package-lock.json ]; then npm ci --legacy-peer-deps; \
+  elif [ -f pnpm-lock.yaml ]; then corepack enable pnpm && pnpm i --frozen-lockfile; \
+  else echo "Lockfile not found." && exit 1; \
+  fi
+
+# Rebuild the source code only when needed
+FROM base AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+
+# Migration runner - retains node_modules for payload CLI
+FROM base AS migrator
+WORKDIR /app
+
+ENV NODE_ENV production
+
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
+
+COPY --from=deps --chown=nextjs:nodejs /app/node_modules ./node_modules
+COPY --from=builder --chown=nextjs:nodejs /app/src ./src
+COPY --from=builder --chown=nextjs:nodejs /app/package.json ./package.json
+COPY --from=builder --chown=nextjs:nodejs /app/tsconfig.json ./tsconfig.json
+
+# Must be pnpm, not npm: package.json declares `packageManager: pnpm@...`, and
+# a corepack-shimmed npm refuses to run in a project pinned to another manager
+# ("This project is configured to use pnpm"). The dependencies in this image
+# were installed with pnpm anyway, so npm here was already inconsistent — it
+# only worked while nothing enforced the pin.
+RUN corepack enable pnpm
+
+USER nextjs
+
+CMD ["pnpm", "run", "migrate"]

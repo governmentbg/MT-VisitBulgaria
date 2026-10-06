@@ -1,0 +1,22 @@
+{
+  "tabs": {
+    "explore": "Обзор",
+    "events": "События",
+    "routes": "Мои поездки",
+    "favourites": "Избранное",
+    "profile": "Профиль"
+  },
+  "screens": {
+    "search": "Поиск",
+    "eventDetail": "Детали события",
+    "attractionDetail": "Детали достопримечательности",
+    "listDetail": "Детали списка",
+    "createList": "Создать список",
+    "editList": "Редактировать список",
+    "settings": "Настройки",
+    "editProfile": "Редактировать профиль"
+  },
+  "searchPlaceholder": "Поиск мест, событий...",
+  "searchingFor": "Поиск: {{query}}",
+  "startTyping": "Начните вводить для поиска"
+}

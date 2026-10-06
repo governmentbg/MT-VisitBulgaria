@@ -1,0 +1,21 @@
+{
+  "title": "Restaurant",
+  "about": "À propos",
+  "cuisineTypes": "Cuisine",
+  "workingHours": "Horaires d'ouverture",
+  "open": "Ouvert",
+  "closed": "Fermé",
+  "closes": "Ferme",
+  "opens": "Ouvre",
+  "dietaryOptions": "Options diététiques",
+  "call": "Appeler",
+  "viewMenu": "Voir le menu",
+  "makeReservation": "Réserver une table",
+  "menu": "Menu",
+  "viewFullMenu": "Voir le menu complet",
+  "nearby": "À proximité",
+  "notFound": {
+    "title": "Restaurant introuvable",
+    "message": "Le restaurant que vous recherchez n'existe pas ou a été supprimé."
+  }
+}

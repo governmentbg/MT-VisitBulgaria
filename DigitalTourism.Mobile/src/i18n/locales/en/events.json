@@ -1,0 +1,62 @@
+{
+  "title": "Events",
+  "subtitle": "Explore what is happening in Bulgaria",
+  "searchPlaceholder": "Search event...",
+  "status": {
+    "active": "Active",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "happeningNow": "Happening now",
+    "eventEnded": "Event has ended"
+  },
+  "countdown": {
+    "days": "Days",
+    "hours": "Hours",
+    "min": "Minutes",
+    "sec": "Seconds"
+  },
+  "categories": {
+    "culture": "Culture",
+    "entertainment": "Entertainment",
+    "music": "Music",
+    "business": "Business"
+  },
+  "filters": {
+    "title": "Filters",
+    "clear": "Clear",
+    "categories": "Categories",
+    "tags": "Tags",
+    "region": "Region",
+    "municipality": "Municipality",
+    "city": "City",
+    "organiser": "Organizer",
+    "apply": "Apply Filters",
+    "activeCount": "{{count}} active"
+  },
+  "about": "About",
+  "eventPeriod": "Event Period",
+  "ticketPrice": "Ticket Price",
+  "organizer": "Organizer",
+  "noEvents": {
+    "title": "No Events Found",
+    "message": "There are no events matching your filters."
+  },
+  "notFound": {
+    "title": "Event Not Found",
+    "message": "The event you're looking for doesn't exist."
+  },
+  "fields": {
+    "eventPeriod": "Event Period",
+    "description": "Description",
+    "location": "Location",
+    "ticketPrice": "Ticket Price",
+    "organizer": "Organizer",
+    "website": "Website",
+    "contact": "Contact",
+    "free": "Free"
+  },
+  "errors": {
+    "notFound": "Event Not Found",
+    "notFoundMessage": "The event you're looking for doesn't exist or has been removed."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "tabs": {
+    "explore": "Разгледай",
+    "events": "Събития",
+    "routes": "Моите пътувания",
+    "favourites": "Любими",
+    "profile": "Профил"
+  },
+  "screens": {
+    "search": "Търсене",
+    "eventDetail": "Детайли за събитието",
+    "attractionDetail": "Детайли за атракцията",
+    "listDetail": "Детайли за списъка",
+    "createList": "Създай списък",
+    "editList": "Редактирай списък",
+    "settings": "Настройки",
+    "editProfile": "Редактиране на профил"
+  },
+  "searchPlaceholder": "Търсене на места, събития...",
+  "searchingFor": "Търсене за: {{query}}",
+  "startTyping": "Започнете да пишете, за да търсите"
+}

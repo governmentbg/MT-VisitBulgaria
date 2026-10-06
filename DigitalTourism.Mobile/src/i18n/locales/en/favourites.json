@@ -1,0 +1,20 @@
+{
+  "title": "Favourites",
+  "subtitle": "Places or events you want to visit",
+  "search": "Search",
+  "allTypes": "All",
+  "typeEvents": "Events",
+  "typeHotels": "Hotels",
+  "typeAttractions": "Attractions",
+  "typeRestaurants": "Restaurants",
+  "typeActivities": "Activities",
+  "emptyTitle": "No favourites yet",
+  "emptyDescription": "Start exploring and save experiences you love",
+  "emptyAction": "Explore",
+  "noResults": "No favourites match your filters",
+  "clearFilters": "Clear filters",
+  "upcoming": "Upcoming",
+  "removed": "Removed from favourites",
+  "removeTitle": "Remove from favourites?",
+  "removeAction": "Remove"
+}

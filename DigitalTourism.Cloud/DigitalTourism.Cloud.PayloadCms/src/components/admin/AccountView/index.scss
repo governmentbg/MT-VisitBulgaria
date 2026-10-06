@@ -1,0 +1,122 @@
+.account-view {
+
+  &__content {
+    max-width: 800px;
+  }
+
+  &__section {
+    padding: calc(var(--base) * 2) 0;
+
+    & + & {
+      border-top: 1px solid var(--theme-border-color);
+    }
+  }
+
+  &__section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--theme-text);
+    margin: 0 0 calc(var(--base) * 2);
+  }
+
+  &__field {
+    margin-bottom: calc(var(--base) * 1.5);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--theme-elevation-500);
+    margin-bottom: calc(var(--base) * 0.5);
+  }
+
+  &__input {
+    width: 100%;
+    padding: 10px;
+    background: var(--theme-input-bg);
+    border: 1px solid var(--theme-border-color);
+    border-radius: 4px;
+    color: var(--theme-text);
+    font-size: 14px;
+    font-family: inherit;
+    cursor: default;
+
+    &:read-only {
+      opacity: 0.7;
+    }
+  }
+
+  &__select {
+    width: 100%;
+    padding: 10px;
+    background: var(--theme-input-bg);
+    border: 1px solid var(--theme-border-color);
+    border-radius: 4px;
+    color: var(--theme-text);
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    appearance: auto;
+  }
+
+  &__pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  &__pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    background: var(--theme-elevation-100);
+    border: 1px solid var(--theme-border-color);
+    border-radius: 100px;
+    font-size: 13px;
+    color: var(--theme-text);
+  }
+
+  &__empty {
+    color: var(--theme-elevation-400);
+    font-size: 14px;
+  }
+
+  &__button-group {
+    display: flex;
+    gap: 0;
+    border: 1px solid var(--theme-border-color);
+    border-radius: 4px;
+    overflow: hidden;
+    width: fit-content;
+  }
+
+  &__theme-btn {
+    padding: 8px 20px;
+    background: var(--theme-input-bg);
+    border: none;
+    border-right: 1px solid var(--theme-border-color);
+    color: var(--theme-text);
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background 150ms ease;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    &:hover {
+      background: var(--theme-elevation-100);
+    }
+
+    &--active {
+      background: var(--theme-elevation-200);
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "trackOf": "Трек {{current}} из {{total}}",
+  "audioGuides": "Аудиогиды ({{count}})",
+  "guide": "{{count}} гид",
+  "guide_other": "{{count}} гидов",
+  "playAll": "Воспроизвести все",
+  "noTranscription": "Транскрипция недоступна",
+  "transcription": "Транскрипция",
+  "audioGuide": "Аудиогид",
+  "minutesLanguage": "{{minutes}} мин \u2022 {{language}}",
+  "protected": "Защищено",
+  "tapToStart": "Нажмите воспроизведение, чтобы начать аудиогид",
+  "segmentsPreview": "{{count}} сегментов \u2022 Нажмите воспроизведение для полной транскрипции",
+  "a11y": {
+    "playPause": "Воспроизвести или пауза",
+    "skipForward": "Вперёд на 15 секунд",
+    "skipBackward": "Назад на 15 секунд",
+    "nextTrack": "Следующий трек",
+    "previousTrack": "Предыдущий трек",
+    "seekSlider": "Прогресс воспроизведения",
+    "closePlayer": "Закрыть плеер",
+    "playGuide": "Воспроизвести {{title}}",
+    "playAll": "Воспроизвести все гиды",
+    "transcriptionSeek": "Перейти к {{time}}"
+  }
+}

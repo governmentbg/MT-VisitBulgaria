@@ -1,0 +1,112 @@
+// Payload CMS renders these elements with inline styles and high-specificity selectors.
+// !important is required to reliably override them from a plugin stylesheet.
+
+// Hide the built-in absolutely-positioned localizer since we moved it into actions
+.app-header__localizer.localizer {
+  display: none !important;
+}
+
+.app-header__localizer-spacing {
+  display: none !important;
+}
+
+// Hide the default avatar/account link since profile is now in actions
+.app-header__account {
+  display: none !important;
+}
+
+.app-header__gradient-placeholder {
+  display: none !important;
+}
+
+.app-header__actions-wrapper {
+  margin-right: 0;
+}
+
+.app-header__last-action {
+  margin-right: 0 !important;
+}
+
+.locale-action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  &__button {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: var(--theme-text);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  &__flag {
+    width: 20px;
+    height: 14px;
+    margin-right: 6px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  &__current {
+    font-weight: 500;
+  }
+
+  &__help {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid var(--theme-elevation-400);
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--theme-elevation-500);
+    cursor: help;
+    flex-shrink: 0;
+    line-height: 1;
+
+    .tooltip {
+      font-size: 13px;
+      font-weight: normal;
+      white-space: normal;
+      width: 260px;
+      line-height: 1.4;
+    }
+
+    .tooltip--position-bottom {
+      top: calc(100% + 20px);
+      bottom: auto;
+      left: -6px;
+      transform: none;
+
+      &::after {
+        left: 8px;
+        bottom: 100%;
+        top: auto;
+        transform: none;
+      }
+    }
+  }
+
+  &__option {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  &__option-flag {
+    width: 20px;
+    height: 14px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  &__code {
+    color: var(--theme-elevation-500);
+    font-size: 12px;
+  }
+}

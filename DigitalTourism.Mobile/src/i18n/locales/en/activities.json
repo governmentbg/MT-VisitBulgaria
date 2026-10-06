@@ -1,0 +1,22 @@
+{
+  "title": "Activity",
+  "about": "About",
+  "difficulty": "Difficulty",
+  "duration": "Duration",
+  "season": "Season",
+  "elevation": "Elevation",
+  "distance": "Distance",
+  "minimumAge": "Minimum Age",
+  "groupSize": "Group size",
+  "equipment": "Equipment Provided",
+  "whatToBring": "What to bring",
+  "includes": "Includes",
+  "call": "Call",
+  "makeReservation": "Make reservation",
+  "similar": "Similar",
+  "upcomingDates": "Upcoming dates",
+  "notFound": {
+    "title": "Activity not found",
+    "message": "The activity you are looking for does not exist or has been removed."
+  }
+}

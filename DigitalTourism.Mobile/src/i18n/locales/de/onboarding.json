@@ -1,0 +1,50 @@
+{
+  "welcome": {
+    "title": "Entdecke Bulgarien",
+    "subtitle": "Erkunde Reisen, Sehenswürdigkeiten\nund verborgene Orte in ganz Bulgarien",
+    "loginButton": "Anmelden",
+    "getStarted": "Loslegen",
+    "selectLanguage": "Sprache"
+  },
+  "carousel": {
+    "page1": {
+      "title": "Sehenswürdigkeiten erkunden",
+      "description": "Entdecken Sie historische Stätten, Naturwunder und verborgene Schätze in ganz Bulgarien."
+    },
+    "page2": {
+      "title": "Kein Event verpassen",
+      "description": "Bleiben Sie über kulturelle Veranstaltungen, Festivals und Konzerte in Bulgarien informiert."
+    },
+    "page3": {
+      "title": "Planen Sie Ihre Reise",
+      "description": "Erstellen Sie Reisen und speichern Sie Ihre Lieblingsorte für schnellen Zugriff."
+    },
+    "skip": "Überspringen",
+    "next": "Weiter",
+    "startExploring": "Entdecken starten"
+  },
+  "demo": {
+    "event": {
+      "month": "Juni",
+      "status": "Aktiv",
+      "title": "Plovdiv Jazz Fest",
+      "location": "Plovdiv, Bulgarien",
+      "description": "Das Plovdiv Jazz Fest wurde 2015 gegründet. Heute gehört es zu den bedeutendsten internationalen Jazzfestivals in Bulgarien."
+    },
+    "attractions": "🏛️ Sehenswürdigkeiten",
+    "markAsVisited": "Als besucht markieren",
+    "places": {
+      "sofiaChurch": "Sophienkirche",
+      "nevskyCathedral": "Alexander-Newski-Kathedrale",
+      "artGallery": "Kunstgalerie Sofia",
+      "historyMuseum": "Nationales Geschichtsmuseum",
+      "rilaMonastery": "Rila-Kloster",
+      "plovdivOldTown": "Altstadt Plovdiv"
+    },
+    "cities": {
+      "plovdiv": "Plovdiv",
+      "staraZagora": "Stara Sagora",
+      "velikoTarnovo": "Weliko Tarnowo"
+    }
+  }
+}

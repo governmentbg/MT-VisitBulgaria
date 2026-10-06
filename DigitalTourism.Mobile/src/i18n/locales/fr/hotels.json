@@ -1,0 +1,16 @@
+{
+  "title": "Hôtel",
+  "about": "À propos",
+  "starRating": "Étoiles",
+  "checkIn": "Arrivée",
+  "checkOut": "Départ",
+  "amenities": "Équipements",
+  "rooms": "Chambres",
+  "call": "Appeler",
+  "makeReservation": "Réserver",
+  "nearby": "À proximité",
+  "notFound": {
+    "title": "Hôtel introuvable",
+    "message": "L'hôtel que vous recherchez n'existe pas ou a été supprimé."
+  }
+}

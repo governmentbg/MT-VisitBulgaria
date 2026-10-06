@@ -1,0 +1,76 @@
+.translation-status-cell {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  &__flag {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+    border-radius: 2px;
+    opacity: 0.8;
+    // Reset default button styles
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__flag-icon {
+    width: 20px;
+    height: 14px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  &__indicator {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1.5px solid var(--theme-bg);
+  }
+
+  // Complete: full color flag, green dot
+  &__flag--complete {
+    .translation-status-cell__flag-icon {
+      opacity: 1;
+    }
+
+    .translation-status-cell__indicator {
+      background-color: #22c55e;
+    }
+  }
+
+  // Partial: full color flag, yellow/orange dot
+  &__flag--partial {
+    .translation-status-cell__flag-icon {
+      opacity: 1;
+    }
+
+    .translation-status-cell__indicator {
+      background-color: #f59e0b;
+    }
+  }
+
+  // Missing: greyscale + reduced opacity, red dot
+  &__flag--missing {
+    .translation-status-cell__flag-icon {
+      opacity: 0.4;
+      filter: grayscale(100%);
+    }
+
+    .translation-status-cell__indicator {
+      background-color: #ef4444;
+    }
+  }
+}

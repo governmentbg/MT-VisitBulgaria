@@ -1,0 +1,20 @@
+{
+  "title": "Favoris",
+  "subtitle": "Lieux ou événements que vous souhaitez visiter",
+  "search": "Rechercher",
+  "allTypes": "Tous",
+  "typeEvents": "Événements",
+  "typeHotels": "Hôtels",
+  "typeAttractions": "Attractions",
+  "typeRestaurants": "Restaurants",
+  "typeActivities": "Activités",
+  "emptyTitle": "Aucun favori pour le moment",
+  "emptyDescription": "Commencez à explorer et sauvegardez les expériences qui vous plaisent",
+  "emptyAction": "Explorer",
+  "noResults": "Aucun favori ne correspond à vos filtres",
+  "clearFilters": "Effacer les filtres",
+  "upcoming": "À venir",
+  "removed": "Retiré des favoris",
+  "removeTitle": "Retirer des favoris ?",
+  "removeAction": "Retirer"
+}

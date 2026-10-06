@@ -1,0 +1,62 @@
+{
+  "title": "Événements",
+  "subtitle": "Découvrez ce qui se passe en Bulgarie",
+  "searchPlaceholder": "Rechercher un événement...",
+  "status": {
+    "active": "En cours",
+    "upcoming": "À venir",
+    "past": "Passé",
+    "happeningNow": "En cours",
+    "eventEnded": "L'événement est terminé"
+  },
+  "countdown": {
+    "days": "Jours",
+    "hours": "Heures",
+    "min": "Minutes",
+    "sec": "Secondes"
+  },
+  "categories": {
+    "culture": "Culture",
+    "entertainment": "Divertissement",
+    "music": "Musique",
+    "business": "Affaires"
+  },
+  "filters": {
+    "title": "Filtres",
+    "clear": "Effacer",
+    "categories": "Catégories",
+    "tags": "Étiquettes",
+    "region": "Région",
+    "municipality": "Municipalité",
+    "city": "Ville",
+    "organiser": "Organisateur",
+    "apply": "Appliquer les filtres",
+    "activeCount": "{{count}} actif(s)"
+  },
+  "about": "À propos",
+  "eventPeriod": "Période de l'événement",
+  "ticketPrice": "Prix du billet",
+  "organizer": "Organisateur",
+  "noEvents": {
+    "title": "Aucun événement trouvé",
+    "message": "Il n'y a aucun événement correspondant à vos filtres."
+  },
+  "notFound": {
+    "title": "Événement introuvable",
+    "message": "L'événement que vous recherchez n'existe pas."
+  },
+  "fields": {
+    "eventPeriod": "Période de l'événement",
+    "description": "Description",
+    "location": "Lieu",
+    "ticketPrice": "Prix du billet",
+    "organizer": "Organisateur",
+    "website": "Site web",
+    "contact": "Contact",
+    "free": "Gratuit"
+  },
+  "errors": {
+    "notFound": "Événement introuvable",
+    "notFoundMessage": "L'événement que vous recherchez n'existe pas ou a été supprimé."
+  }
+}

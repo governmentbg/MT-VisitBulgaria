@@ -1,0 +1,10 @@
+{
+  "name": "dt-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Development scripts for DigitalTourism",
+  "dependencies": {
+    "@babel/parser": "^7.27.0",
+    "@babel/traverse": "^7.27.0"
+  }
+}

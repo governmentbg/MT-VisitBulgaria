@@ -1,0 +1,402 @@
+[
+  {
+    "url": "/contact",
+    "description": {
+      "en": "Sofia, 1000, Sveta Nedelya Square № 1 Work time: Monday to Friday 09:00 to 17:30 Tourist information can be obtained at: websites: www.visitbulgaria.com www.tourism.government.bg by e-mail: marketing@tourism.government.bg or by phone: + 359 883 339 332",
+      "bg": "Sofia, 1000, Sveta Nedelya Square № 1 Work time: Monday to Friday 09:00 to 17:30 Tourist information can be obtained at: websites: www.visitbulgaria.com www.tourism.government.bg by e-mail: marketing@tourism.government.bg or by phone: + 359 883 339 332",
+      "de": "Sofia, 1000, Sveta Nedelya Square № 1 Work time: Monday to Friday 09:00 to 17:30 Tourist information can be obtained at: websites: www.visitbulgaria.com www.tourism.government.bg by e-mail: marketing@tourism.government.bg or by phone: + 359 883 339 332",
+      "fr": "Sofia, 1000, Sveta Nedelya Square № 1 Work time: Monday to Friday 09:00 to 17:30 Tourist information can be obtained at: websites: www.visitbulgaria.com www.tourism.government.bg by e-mail: marketing@tourism.government.bg or by phone: + 359 883 339 332",
+      "ru": "Sofia, 1000, Sveta Nedelya Square № 1 Work time: Monday to Friday 09:00 to 17:30 Tourist information can be obtained at: websites: www.visitbulgaria.com www.tourism.government.bg by e-mail: marketing@tourism.government.bg or by phone: + 359 883 339 332"
+    }
+  },
+  {
+    "url": "/plan-your-trip/faqs",
+    "description": {
+      "en": "1. Do I need a visa to enter Bulgaria? 2. Is the use of credit cards wide spread? 3. What currency is used for daily transactions in the country? 4. What is the best way to exchange currency? 5. Where are the international airports in the country? 6. Which are the mobile operators in the country? 7. What are the speed limits for motor vehicles in Bulgaria? 8. What is the country’s emergency telephone number? 9. Bulgaria is located in which time zone? 10. What is the electric voltage in the count",
+      "bg": "1. Do I need a visa to enter Bulgaria? 2. Is the use of credit cards wide spread? 3. What currency is used for daily transactions in the country? 4. What is the best way to exchange currency? 5. Where are the international airports in the country? 6. Which are the mobile operators in the country? 7. What are the speed limits for motor vehicles in Bulgaria? 8. What is the country’s emergency telephone number? 9. Bulgaria is located in which time zone? 10. What is the electric voltage in the count",
+      "de": "1. Do I need a visa to enter Bulgaria? 2. Is the use of credit cards wide spread? 3. What currency is used for daily transactions in the country? 4. What is the best way to exchange currency? 5. Where are the international airports in the country? 6. Which are the mobile operators in the country? 7. What are the speed limits for motor vehicles in Bulgaria? 8. What is the country’s emergency telephone number? 9. Bulgaria is located in which time zone? 10. What is the electric voltage in the count",
+      "fr": "1. Do I need a visa to enter Bulgaria? 2. Is the use of credit cards wide spread? 3. What currency is used for daily transactions in the country? 4. What is the best way to exchange currency? 5. Where are the international airports in the country? 6. Which are the mobile operators in the country? 7. What are the speed limits for motor vehicles in Bulgaria? 8. What is the country’s emergency telephone number? 9. Bulgaria is located in which time zone? 10. What is the electric voltage in the count",
+      "ru": "1. Do I need a visa to enter Bulgaria? 2. Is the use of credit cards wide spread? 3. What currency is used for daily transactions in the country? 4. What is the best way to exchange currency? 5. Where are the international airports in the country? 6. Which are the mobile operators in the country? 7. What are the speed limits for motor vehicles in Bulgaria? 8. What is the country’s emergency telephone number? 9. Bulgaria is located in which time zone? 10. What is the electric voltage in the count"
+    }
+  },
+  {
+    "url": "/where-to-go/cities",
+    "description": {
+      "en": "Explore All Cities in Bulgaria on the Map .leaflet-popup-content{ width: 200px; } var map = L.map('map').setView(new L.LatLng(42.8783, 25.3209), 7); L.tileLayer('https://{s}.tile.openstreetmap.org/{z}",
+      "bg": "Explore All Cities in Bulgaria on the Map .leaflet-popup-content{ width: 200px; } var map = L.map('map').setView(new L.LatLng(42.8783, 25.3209), 7); L.tileLayer('https://{s}.tile.openstreetmap.org/{z}",
+      "de": "Explore All Cities in Bulgaria on the Map .leaflet-popup-content{ width: 200px; } var map = L.map('map').setView(new L.LatLng(42.8783, 25.3209), 7); L.tileLayer('https://{s}.tile.openstreetmap.org/{z}",
+      "fr": "Explore All Cities in Bulgaria on the Map .leaflet-popup-content{ width: 200px; } var map = L.map('map').setView(new L.LatLng(42.8783, 25.3209), 7); L.tileLayer('https://{s}.tile.openstreetmap.org/{z}",
+      "ru": "Explore All Cities in Bulgaria on the Map .leaflet-popup-content{ width: 200px; } var map = L.map('map').setView(new L.LatLng(42.8783, 25.3209), 7); L.tileLayer('https://{s}.tile.openstreetmap.org/{z}"
+    }
+  },
+  {
+    "url": "/where-to-go/regions",
+    "description": {
+      "en": "Bulgaria is divided into 9 tourist regions, which promote the specific types of tourism in each of them:– Rila-Pirin Tourist Region– Bourgas Black Sea Tourist Region– Varna Black Sea Tourist Region– S",
+      "bg": "/*! elementor - v3.17.0 - 08-11-2023 */ .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-dr",
+      "de": "/*! elementor - v3.17.0 - 08-11-2023 */ .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-dr",
+      "fr": "/*! elementor - v3.17.0 - 08-11-2023 */ .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-dr",
+      "ru": "/*! elementor - v3.17.0 - 08-11-2023 */ .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-dr"
+    }
+  },
+  {
+    "url": "/where-to-go",
+    "description": {
+      "en": "EDEN, European Destinations of Excellence, aims to promote sustainable tourism development models across the EU. The initiative is based on national competitions and promotional campaigns that result",
+      "bg": "",
+      "de": "/*! elementor - v3.17.0 - 08-11-2023 */ .elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor",
+      "fr": "",
+      "ru": ""
+    }
+  },
+  {
+    "url": "/what-to-do",
+    "description": {
+      "en": "Discover unforgettable activities and experiences across Bulgaria — from cultural tours and adventure sports to wine tasting, spa retreats and vibrant nightlife.",
+      "bg": "Открийте незабравими дейности и преживявания из цяла България — от културни турове и приключенски спортове до дегустации на вино, спа почивки и нощен живот.",
+      "de": "Entdecken Sie unvergessliche Aktivitäten und Erlebnisse in ganz Bulgarien — von Kulturtouren und Abenteuersport bis hin zu Weinverkostungen, Spa-Retreats und Nachtleben.",
+      "fr": "Découvrez des activités et expériences inoubliables à travers la Bulgarie — des visites culturelles aux sports d'aventure, en passant par les dégustations de vin, les retraites spa et la vie nocturne.",
+      "ru": "Откройте для себя незабываемые занятия и впечатления по всей Болгарии — от культурных туров и приключенческих видов спорта до дегустации вин, спа-отдыха и ночной жизни."
+    }
+  },
+  {
+    "url": "/what-to-do/experiences",
+    "description": {
+      "en": "Browse curated travel experiences across Bulgaria — from guided tours to unique local activities.",
+      "bg": "Разгледайте подбрани туристически преживявания из цяла България.",
+      "de": "Durchstöbern Sie kuratierte Reiseerlebnisse in ganz Bulgarien.",
+      "fr": "Parcourez les expériences de voyage sélectionnées à travers la Bulgarie.",
+      "ru": "Откройте для себя подобранные туристические впечатления по всей Болгарии."
+    }
+  },
+  {
+    "url": "/what-to-do/activities",
+    "description": {
+      "en": "Find outdoor and indoor activities across Bulgaria — hiking, cycling, water sports and more.",
+      "bg": "Намерете дейности на открито и закрито из цяла България — туризъм, колоездене, водни спортове.",
+      "de": "Finden Sie Outdoor- und Indoor-Aktivitäten in ganz Bulgarien — Wandern, Radfahren, Wassersport.",
+      "fr": "Trouvez des activités de plein air et en intérieur à travers la Bulgarie.",
+      "ru": "Найдите активности на свежем воздухе и в помещении по всей Болгарии."
+    }
+  },
+  {
+    "url": "/what-to-do/nightlife",
+    "description": {
+      "en": "Discover Bulgaria's nightlife — bars, clubs, live music venues and entertainment in major cities.",
+      "bg": "Открийте нощния живот на България — барове, клубове, места за жива музика.",
+      "de": "Entdecken Sie Bulgariens Nachtleben — Bars, Clubs, Live-Musiklocations und Unterhaltung.",
+      "fr": "Découvrez la vie nocturne de la Bulgarie — bars, clubs, salles de concert et divertissements.",
+      "ru": "Откройте ночную жизнь Болгарии — бары, клубы, концертные площадки и развлечения."
+    }
+  },
+  {
+    "url": "/what-to-do/shopping",
+    "description": {
+      "en": "Shop for traditional crafts, rose oil products, local wines and souvenirs across Bulgaria.",
+      "bg": "Пазарувайте традиционни занаяти, продукти от розово масло, местни вина и сувенири.",
+      "de": "Kaufen Sie traditionelles Kunsthandwerk, Rosenölprodukte, lokale Weine und Souvenirs.",
+      "fr": "Achetez de l'artisanat traditionnel, des produits à l'huile de rose, des vins locaux et des souvenirs.",
+      "ru": "Покупайте традиционные ремесленные изделия, розовое масло, местные вина и сувениры."
+    }
+  },
+  {
+    "url": "/plan-your-trip/accommodations",
+    "description": {
+      "en": "Find hotels, guesthouses, hostels and holiday apartments across Bulgaria.",
+      "bg": "Намерете хотели, къщи за гости, хостели и ваканционни апартаменти в България.",
+      "de": "Finden Sie Hotels, Pensionen, Hostels und Ferienwohnungen in Bulgarien.",
+      "fr": "Trouvez des hôtels, maisons d'hôtes, auberges et appartements de vacances en Bulgarie.",
+      "ru": "Найдите отели, гостевые дома, хостелы и апартаменты для отдыха в Болгарии."
+    }
+  },
+  {
+    "url": "/plan-your-trip/restaurants",
+    "description": {
+      "en": "Discover restaurants, taverns and dining options serving Bulgarian and international cuisine.",
+      "bg": "Открийте ресторанти, механи и заведения за хранене с българска и международна кухня.",
+      "de": "Entdecken Sie Restaurants, Tavernen und Speisemöglichkeiten mit bulgarischer und internationaler Küche.",
+      "fr": "Découvrez les restaurants, tavernes et options de restauration proposant une cuisine bulgare et internationale.",
+      "ru": "Откройте рестораны, таверны и кафе с болгарской и международной кухней."
+    }
+  },
+  {
+    "url": "/plan-your-trip/flights-airports",
+    "description": {
+      "en": "Information about flights to Bulgaria, international airports in Sofia, Varna and Burgas, and domestic connections.",
+      "bg": "Информация за полети до България, международни летища в София, Варна и Бургас и вътрешни връзки.",
+      "de": "Informationen über Flüge nach Bulgarien, internationale Flughäfen in Sofia, Varna und Burgas und Inlandsverbindungen.",
+      "fr": "Informations sur les vols vers la Bulgarie, les aéroports internationaux de Sofia, Varna et Bourgas et les liaisons intérieures.",
+      "ru": "Информация о рейсах в Болгарию, международных аэропортах Софии, Варны и Бургаса и внутренних рейсах."
+    }
+  },
+  {
+    "url": "/plan-your-trip/travel-insurance",
+    "description": {
+      "en": "Travel insurance recommendations for visiting Bulgaria, including health coverage, EHIC cards and emergency contacts.",
+      "bg": "Препоръки за пътническа застраховка при посещение на България, включително здравно покритие и контакти за спешна помощ.",
+      "de": "Reiseversicherungsempfehlungen für den Besuch in Bulgarien, einschließlich Krankenversicherung, EHIC-Karten und Notfallkontakte.",
+      "fr": "Recommandations d'assurance voyage pour visiter la Bulgarie, y compris la couverture santé, les cartes CEAM et les contacts d'urgence.",
+      "ru": "Рекомендации по туристической страховке для поездки в Болгарию, включая медицинское покрытие и экстренные контакты."
+    }
+  },
+  {
+    "url": "/plan-your-trip/weather",
+    "description": {
+      "en": "Bulgaria's climate, seasonal weather patterns and the best times to visit for different activities.",
+      "bg": "Климат на България, сезонни метеорологични условия и най-добрите периоди за посещение.",
+      "de": "Bulgariens Klima, saisonale Wettermuster und die besten Reisezeiten für verschiedene Aktivitäten.",
+      "fr": "Le climat de la Bulgarie, les conditions météorologiques saisonnières et les meilleures périodes pour visiter.",
+      "ru": "Климат Болгарии, сезонные погодные условия и лучшее время для посещения."
+    }
+  },
+  {
+    "url": "/where-to-go/mountains-ski",
+    "description": {
+      "en": "Bulgaria's mountain destinations for skiing, snowboarding, hiking and nature retreats. Home to world-class ski resorts and stunning alpine landscapes.",
+      "bg": "Планински дестинации в България за ски, сноуборд, пешеходен туризъм и почивка сред природата.",
+      "de": "Bulgariens Bergdestinationen für Skifahren, Snowboarden, Wandern und Naturausflüge.",
+      "fr": "Les destinations montagneuses de la Bulgarie pour le ski, le snowboard, la randonnée et les retraites nature.",
+      "ru": "Горные направления Болгарии для горнолыжного спорта, сноуборда, походов и отдыха на природе."
+    }
+  },
+  {
+    "url": "/where-to-go/natural-parks",
+    "description": {
+      "en": "National parks and nature reserves in Bulgaria offering hiking trails, wildlife watching, eco-tourism and outdoor adventures in protected areas.",
+      "bg": "Национални паркове и природни резервати в България с пешеходни маршрути, наблюдение на дивата природа и приключения на открито.",
+      "de": "Nationalparks und Naturreservate in Bulgarien mit Wanderwegen, Wildtierbeobachtung und Outdoor-Abenteuern.",
+      "fr": "Parcs nationaux et réserves naturelles en Bulgarie offrant sentiers de randonnée, observation de la faune et aventures en plein air.",
+      "ru": "Национальные парки и природные заповедники Болгарии: пешие маршруты, наблюдение за дикой природой и экотуризм."
+    }
+  },
+  {
+    "url": "/where-to-go/tourism-types/religious-pilgrimage",
+    "description": {
+      "en": "Discover Bulgaria's rich religious heritage — ancient monasteries, medieval churches, sacred sites and pilgrimage routes.",
+      "bg": "Открийте богатото религиозно наследство на България — древни манастири, средновековни църкви, свещени места и поклоннически маршрути.",
+      "de": "Entdecken Sie Bulgariens reiches religiöses Erbe — antike Klöster, mittelalterliche Kirchen, heilige Stätten und Pilgerwege.",
+      "fr": "Découvrez le riche patrimoine religieux de la Bulgarie — monastères anciens, églises médiévales, sites sacrés et routes de pèlerinage.",
+      "ru": "Откройте богатое религиозное наследие Болгарии — древние монастыри, средневековые церкви, святые места и паломнические маршруты."
+    }
+  },
+  {
+    "url": "/privacy-policy",
+    "description": {
+      "en": "Our privacy policy explains how we collect, use and protect your personal data when you use this website.",
+      "bg": "Нашата политика за поверителност обяснява как събираме, използваме и защитаваме вашите лични данни.",
+      "de": "Unsere Datenschutzerklärung erläutert, wie wir Ihre personenbezogenen Daten erheben, verwenden und schützen.",
+      "fr": "Notre politique de confidentialité explique comment nous collectons, utilisons et protégeons vos données personnelles.",
+      "ru": "Наша политика конфиденциальности объясняет, как мы собираем, используем и защищаем ваши персональные данные."
+    }
+  },
+  {
+    "url": "/terms",
+    "description": {
+      "en": "Terms and conditions governing the use of this website and our tourism services.",
+      "bg": "Общи условия за ползване на този уебсайт и нашите туристически услуги.",
+      "de": "Allgemeine Geschäftsbedingungen für die Nutzung dieser Website und unserer Tourismusdienstleistungen.",
+      "fr": "Conditions générales régissant l'utilisation de ce site web et de nos services touristiques.",
+      "ru": "Условия использования данного веб-сайта и наших туристических услуг."
+    }
+  },
+  {
+    "url": "/accessibility",
+    "description": {
+      "en": "Our commitment to making this website accessible to all users, including those with disabilities.",
+      "bg": "Нашият ангажимент за осигуряване на достъпност на този уебсайт за всички потребители.",
+      "de": "Unser Engagement für die Barrierefreiheit dieser Website für alle Nutzer.",
+      "fr": "Notre engagement à rendre ce site web accessible à tous les utilisateurs.",
+      "ru": "Наше обязательство сделать этот сайт доступным для всех пользователей."
+    }
+  },
+  {
+    "url": "/cookies",
+    "description": {
+      "en": "Information about the cookies we use on this website and how to manage your preferences.",
+      "bg": "Информация за бисквитките, които използваме, и как да управлявате предпочитанията си.",
+      "de": "Informationen über die von uns verwendeten Cookies und die Verwaltung Ihrer Einstellungen.",
+      "fr": "Informations sur les cookies que nous utilisons et comment gérer vos préférences.",
+      "ru": "Информация о файлах cookie и управление вашими настройками."
+    }
+  },
+  {
+    "url": "/whats-on/cultural-festivals",
+    "description": {
+      "en": "Cultural festivals and celebrations across Bulgaria — from folk festivals to contemporary art events.",
+      "bg": "Културни фестивали и празненства из цяла България.",
+      "de": "Kulturfestivals und Feiern in ganz Bulgarien.",
+      "fr": "Festivals culturels et célébrations à travers la Bulgarie.",
+      "ru": "Культурные фестивали и праздники по всей Болгарии."
+    }
+  },
+  {
+    "url": "/whats-on/music-festivals",
+    "description": {
+      "en": "Music festivals in Bulgaria — jazz, folk, rock, electronic and classical music events.",
+      "bg": "Музикални фестивали в България — джаз, фолклор, рок, електронна и класическа музика.",
+      "de": "Musikfestivals in Bulgarien — Jazz, Folk, Rock, elektronische und klassische Musik.",
+      "fr": "Festivals de musique en Bulgarie — jazz, folk, rock, musique électronique et classique.",
+      "ru": "Музыкальные фестивали в Болгарии — джаз, фолк, рок, электронная и классическая музыка."
+    }
+  },
+  {
+    "url": "/whats-on/traditional-events",
+    "description": {
+      "en": "Traditional Bulgarian events — kukeri rituals, nestinarstvo fire dancing, martenitsa celebrations and harvest festivals.",
+      "bg": "Традиционни български събития — кукерски ритуали, нестинарство, мартеници и празници на реколтата.",
+      "de": "Traditionelle bulgarische Veranstaltungen — Kukeri-Rituale, Nestinarstvo-Feuertanz, Marteniza und Erntefeste.",
+      "fr": "Événements traditionnels bulgares — rituels kukeri, danse du feu nestinarstvo, célébrations de martenitsa et fêtes des moissons.",
+      "ru": "Традиционные болгарские события — обряды кукеров, нестинарство, мартеницы и праздники урожая."
+    }
+  },
+  {
+    "url": "/whats-on/sports-events",
+    "description": {
+      "en": "Sports events in Bulgaria — marathons, ski competitions, football matches and adventure races.",
+      "bg": "Спортни събития в България — маратони, ски състезания, футболни мачове и приключенски надбягвания.",
+      "de": "Sportveranstaltungen in Bulgarien — Marathons, Skiwettbewerbe, Fußballspiele und Abenteuerrennen.",
+      "fr": "Événements sportifs en Bulgarie — marathons, compétitions de ski, matchs de football et courses d'aventure.",
+      "ru": "Спортивные события в Болгарии — марафоны, горнолыжные соревнования, футбольные матчи и приключенческие гонки."
+    }
+  },
+  {
+    "url": "/where-to-go/regions/sofia-region",
+    "description": {
+      "en": "The capital region combining urban culture, mountain escapes on Vitosha, ancient Roman ruins at Serdica and the famous Boyana Church UNESCO site.",
+      "bg": "Столичният регион, съчетаващ градска култура, планински отдих на Витоша, древноримски руини и Боянската църква.",
+      "de": "The capital region combining urban culture, mountain escapes on Vitosha, ancient Roman ruins at Serdica and the famous Boyana Church UNESCO site.",
+      "fr": "The capital region combining urban culture, mountain escapes on Vitosha, ancient Roman ruins at Serdica and the famous Boyana Church UNESCO site.",
+      "ru": "The capital region combining urban culture, mountain escapes on Vitosha, ancient Roman ruins at Serdica and the famous Boyana Church UNESCO site."
+    }
+  },
+  {
+    "url": "/where-to-go/regions/rila-pirin",
+    "description": {
+      "en": "Home to Bulgaria's highest peaks, the Rila Monastery, Bansko ski resort and the stunning Seven Rila Lakes. A paradise for hikers and skiers.",
+      "bg": "Тук са най-високите върхове, Рилският манастир, ски курортът Банско и Седемте рилски езера.",
+      "de": "Home to Bulgaria's highest peaks, the Rila Monastery, Bansko ski resort and the stunning Seven Rila Lakes. A paradise for hikers and skiers.",
+      "fr": "Home to Bulgaria's highest peaks, the Rila Monastery, Bansko ski resort and the stunning Seven Rila Lakes. A paradise for hikers and skiers.",
+      "ru": "Home to Bulgaria's highest peaks, the Rila Monastery, Bansko ski resort and the stunning Seven Rila Lakes. A paradise for hikers and skiers."
+    }
+  },
+  {
+    "url": "/where-to-go/regions/bourgas-black-sea",
+    "description": {
+      "en": "The southern Black Sea coast with Sunny Beach resort, ancient Nessebar, charming Sozopol and the Strandzha Nature Park.",
+      "bg": "Южното Черноморско крайбрежие със Слънчев бряг, старинен Несебър, очарователен Созопол и Природен парк Странджа.",
+      "de": "The southern Black Sea coast with Sunny Beach resort, ancient Nessebar, charming Sozopol and the Strandzha Nature Park.",
+      "fr": "The southern Black Sea coast with Sunny Beach resort, ancient Nessebar, charming Sozopol and the Strandzha Nature Park.",
+      "ru": "The southern Black Sea coast with Sunny Beach resort, ancient Nessebar, charming Sozopol and the Strandzha Nature Park."
+    }
+  },
+  {
+    "url": "/where-to-go/regions/varna-black-sea",
+    "description": {
+      "en": "The northern Black Sea coast featuring Golden Sands resort, the vibrant city of Varna, Albena and the ancient Thracian gold treasures.",
+      "bg": "Северното Черноморско крайбрежие със Златни пясъци, оживения град Варна, Албена и древното тракийско злато.",
+      "de": "The northern Black Sea coast featuring Golden Sands resort, the vibrant city of Varna, Albena and the ancient Thracian gold treasures.",
+      "fr": "The northern Black Sea coast featuring Golden Sands resort, the vibrant city of Varna, Albena and the ancient Thracian gold treasures.",
+      "ru": "The northern Black Sea coast featuring Golden Sands resort, the vibrant city of Varna, Albena and the ancient Thracian gold treasures."
+    }
+  },
+  {
+    "url": "/where-to-go/regions/stara-planina",
+    "description": {
+      "en": "The Balkan Mountain range stretching across Bulgaria, with the Central Balkan National Park, Shipka Pass and the Valley of Roses.",
+      "bg": "Балканската планинска верига с Национален парк Централен Балкан, Шипченският проход и Долината на розите.",
+      "de": "The Balkan Mountain range stretching across Bulgaria, with the Central Balkan National Park, Shipka Pass and the Valley of Roses.",
+      "fr": "The Balkan Mountain range stretching across Bulgaria, with the Central Balkan National Park, Shipka Pass and the Valley of Roses.",
+      "ru": "The Balkan Mountain range stretching across Bulgaria, with the Central Balkan National Park, Shipka Pass and the Valley of Roses."
+    }
+  },
+  {
+    "url": "/where-to-go/regions/valley-of-roses",
+    "description": {
+      "en": "Famous worldwide for rose oil production, this region hosts the annual Rose Festival and offers Thracian tombs, historic towns and spa resorts.",
+      "bg": "Световноизвестна с производството на розово масло, тракийски гробници, исторически градове и балнеоложки курорти.",
+      "de": "Famous worldwide for rose oil production, this region hosts the annual Rose Festival and offers Thracian tombs, historic towns and spa resorts.",
+      "fr": "Famous worldwide for rose oil production, this region hosts the annual Rose Festival and offers Thracian tombs, historic towns and spa resorts.",
+      "ru": "Famous worldwide for rose oil production, this region hosts the annual Rose Festival and offers Thracian tombs, historic towns and spa resorts."
+    }
+  },
+  {
+    "url": "/where-to-go/regions/trakia",
+    "description": {
+      "en": "Ancient Thracian lands with Plovdiv as cultural capital, wine country in the Thracian Valley and archaeological treasures spanning millennia.",
+      "bg": "Древните тракийски земи с Пловдив като културна столица, винена страна в Тракийската низина и археологически съкровища.",
+      "de": "Ancient Thracian lands with Plovdiv as cultural capital, wine country in the Thracian Valley and archaeological treasures spanning millennia.",
+      "fr": "Ancient Thracian lands with Plovdiv as cultural capital, wine country in the Thracian Valley and archaeological treasures spanning millennia.",
+      "ru": "Ancient Thracian lands with Plovdiv as cultural capital, wine country in the Thracian Valley and archaeological treasures spanning millennia."
+    }
+  },
+  {
+    "url": "/where-to-go/regions/danube",
+    "description": {
+      "en": "Along the mighty Danube River with historic fortress towns, nature reserves, the Danube cycling route and the striking Belogradchik Rocks.",
+      "bg": "Покрай могъщата река Дунав с исторически крепостни градове, природни резервати и Белоградчишки скали.",
+      "de": "Along the mighty Danube River with historic fortress towns, nature reserves, the Danube cycling route and the striking Belogradchik Rocks.",
+      "fr": "Along the mighty Danube River with historic fortress towns, nature reserves, the Danube cycling route and the striking Belogradchik Rocks.",
+      "ru": "Along the mighty Danube River with historic fortress towns, nature reserves, the Danube cycling route and the striking Belogradchik Rocks."
+    }
+  },
+  {
+    "url": "/where-to-go/cities/sofia-city",
+    "description": {
+      "en": "Bulgaria's vibrant capital blends 7,000 years of history with modern energy. Explore Roman ruins beneath city streets, majestic Alexander Nevsky Cathedral, trendy neighbourhoods, excellent restaurants and Vitosha Mountain just minutes away.",
+      "bg": "Столицата на България съчетава 7000 години история със съвременна енергия. Разгледайте римски руини, катедралата Александър Невски, модерни квартали и Витоша.",
+      "de": "Bulgaria's vibrant capital blends 7,000 years of history with modern energy. Explore Roman ruins beneath city streets, majestic Alexander Nevsky Cathedral, trendy neighbourhoods, excellent restaurants and Vitosha Mountain just minutes away.",
+      "fr": "Bulgaria's vibrant capital blends 7,000 years of history with modern energy. Explore Roman ruins beneath city streets, majestic Alexander Nevsky Cathedral, trendy neighbourhoods, excellent restaurants and Vitosha Mountain just minutes away.",
+      "ru": "Bulgaria's vibrant capital blends 7,000 years of history with modern energy. Explore Roman ruins beneath city streets, majestic Alexander Nevsky Cathedral, trendy neighbourhoods, excellent restaurants and Vitosha Mountain just minutes away."
+    }
+  },
+  {
+    "url": "/where-to-go/cities/plovdiv",
+    "description": {
+      "en": "Europe's oldest continuously inhabited city and 2019 European Capital of Culture. Discover the Ancient Roman theatre, the charming Old Town with Revival-era houses, vibrant arts scene and the famous Kapana creative quarter.",
+      "bg": "Най-старият непрекъснато обитаван град в Европа и Европейска столица на културата 2019. Античен театър, Стар град с възрожденски къщи и творчески квартал Капана.",
+      "de": "Europe's oldest continuously inhabited city and 2019 European Capital of Culture. Discover the Ancient Roman theatre, the charming Old Town with Revival-era houses, vibrant arts scene and the famous Kapana creative quarter.",
+      "fr": "Europe's oldest continuously inhabited city and 2019 European Capital of Culture. Discover the Ancient Roman theatre, the charming Old Town with Revival-era houses, vibrant arts scene and the famous Kapana creative quarter.",
+      "ru": "Europe's oldest continuously inhabited city and 2019 European Capital of Culture. Discover the Ancient Roman theatre, the charming Old Town with Revival-era houses, vibrant arts scene and the famous Kapana creative quarter."
+    }
+  },
+  {
+    "url": "/where-to-go/cities/varna-city",
+    "description": {
+      "en": "The maritime capital of Bulgaria on the Black Sea coast. Home to the world's oldest processed gold, stunning Sea Garden, vibrant nightlife, excellent seafood restaurants and beautiful beaches.",
+      "bg": "Морската столица на България на Черноморското крайбрежие. Най-старото обработено злато в света, Морска градина, нощен живот и красиви плажове.",
+      "de": "The maritime capital of Bulgaria on the Black Sea coast. Home to the world's oldest processed gold, stunning Sea Garden, vibrant nightlife, excellent seafood restaurants and beautiful beaches.",
+      "fr": "The maritime capital of Bulgaria on the Black Sea coast. Home to the world's oldest processed gold, stunning Sea Garden, vibrant nightlife, excellent seafood restaurants and beautiful beaches.",
+      "ru": "The maritime capital of Bulgaria on the Black Sea coast. Home to the world's oldest processed gold, stunning Sea Garden, vibrant nightlife, excellent seafood restaurants and beautiful beaches."
+    }
+  },
+  {
+    "url": "/where-to-go/cities/burgas",
+    "description": {
+      "en": "Gateway to the southern Black Sea coast with a beautiful sea garden, pedestrian centre, nearby lakes and wetlands, and easy access to Sozopol, Nessebar and Sunny Beach.",
+      "bg": "Врата към южното Черноморие с красива Морска градина, пешеходна зона, близки езера и лесен достъп до Созопол, Несебър и Слънчев бряг.",
+      "de": "Gateway to the southern Black Sea coast with a beautiful sea garden, pedestrian centre, nearby lakes and wetlands, and easy access to Sozopol, Nessebar and Sunny Beach.",
+      "fr": "Gateway to the southern Black Sea coast with a beautiful sea garden, pedestrian centre, nearby lakes and wetlands, and easy access to Sozopol, Nessebar and Sunny Beach.",
+      "ru": "Gateway to the southern Black Sea coast with a beautiful sea garden, pedestrian centre, nearby lakes and wetlands, and easy access to Sozopol, Nessebar and Sunny Beach."
+    }
+  },
+  {
+    "url": "/where-to-go/cities/veliko-tarnovo",
+    "description": {
+      "en": "The medieval capital of the Second Bulgarian Empire perched dramatically on three hills above the Yantra River. Visit the Tsarevets fortress, Samovodska Charshia crafts street and enjoy spectacular sound and light shows.",
+      "bg": "Средновековната столица на Второто българско царство, драматично разположена на три хълма над река Янтра. Крепостта Царевец и Самоводската чаршия.",
+      "de": "The medieval capital of the Second Bulgarian Empire perched dramatically on three hills above the Yantra River. Visit the Tsarevets fortress, Samovodska Charshia crafts street and enjoy spectacular sound and light shows.",
+      "fr": "The medieval capital of the Second Bulgarian Empire perched dramatically on three hills above the Yantra River. Visit the Tsarevets fortress, Samovodska Charshia crafts street and enjoy spectacular sound and light shows.",
+      "ru": "The medieval capital of the Second Bulgarian Empire perched dramatically on three hills above the Yantra River. Visit the Tsarevets fortress, Samovodska Charshia crafts street and enjoy spectacular sound and light shows."
+    }
+  },
+  {
+    "url": "/where-to-go/cities/ruse",
+    "description": {
+      "en": "The \"Little Vienna\" of Bulgaria on the Danube River, known for elegant Neo-Baroque and Neo-Rococo architecture, vibrant cultural scene, the Danube Bridge to Romania and nearby Ivanovo rock churches.",
+      "bg": "\"Малката Виена\" на България на река Дунав, известна с елегантна необарокова архитектура, културна сцена и Ивановски скални църкви.",
+      "de": "The \"Little Vienna\" of Bulgaria on the Danube River, known for elegant Neo-Baroque and Neo-Rococo architecture, vibrant cultural scene, the Danube Bridge to Romania and nearby Ivanovo rock churches.",
+      "fr": "The \"Little Vienna\" of Bulgaria on the Danube River, known for elegant Neo-Baroque and Neo-Rococo architecture, vibrant cultural scene, the Danube Bridge to Romania and nearby Ivanovo rock churches.",
+      "ru": "The \"Little Vienna\" of Bulgaria on the Danube River, known for elegant Neo-Baroque and Neo-Rococo architecture, vibrant cultural scene, the Danube Bridge to Romania and nearby Ivanovo rock churches."
+    }
+  }
+]

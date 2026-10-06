@@ -1,0 +1,22 @@
+{
+  "tabs": {
+    "explore": "Explore",
+    "events": "Events",
+    "routes": "My Trips",
+    "favourites": "Favourites",
+    "profile": "Profile"
+  },
+  "screens": {
+    "search": "Search",
+    "eventDetail": "Event Details",
+    "attractionDetail": "Attraction Details",
+    "listDetail": "List Details",
+    "createList": "Create List",
+    "editList": "Edit List",
+    "settings": "Settings",
+    "editProfile": "Edit Profile"
+  },
+  "searchPlaceholder": "Search for places, events...",
+  "searchingFor": "Searching for: {{query}}",
+  "startTyping": "Start typing to search"
+}

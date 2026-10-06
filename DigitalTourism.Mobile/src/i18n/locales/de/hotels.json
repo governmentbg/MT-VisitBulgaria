@@ -1,0 +1,16 @@
+{
+  "title": "Hotel",
+  "about": "Über",
+  "starRating": "Sterne",
+  "checkIn": "Check-in",
+  "checkOut": "Check-out",
+  "amenities": "Ausstattung",
+  "rooms": "Zimmer",
+  "call": "Anrufen",
+  "makeReservation": "Jetzt buchen",
+  "nearby": "In der Nähe",
+  "notFound": {
+    "title": "Hotel nicht gefunden",
+    "message": "Das gesuchte Hotel existiert nicht oder wurde entfernt."
+  }
+}

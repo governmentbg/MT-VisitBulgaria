@@ -1,0 +1,50 @@
+{
+  "welcome": {
+    "title": "Discover Bulgaria",
+    "subtitle": "Explore trips, landmarks\nand hidden places across Bulgaria",
+    "loginButton": "Log In",
+    "getStarted": "Get Started",
+    "selectLanguage": "Language"
+  },
+  "carousel": {
+    "page1": {
+      "title": "Explore amazing places",
+      "description": "Find attractions, restaurants, and activities tailored to your interests."
+    },
+    "page2": {
+      "title": "Never miss an event",
+      "description": "Stay updated with cultural events, festivals, and concerts happening in Bulgaria."
+    },
+    "page3": {
+      "title": "Plan your journey",
+      "description": "Create custom trips and save your favorite places for easy access."
+    },
+    "skip": "Skip",
+    "next": "Next",
+    "startExploring": "Start Exploring"
+  },
+  "demo": {
+    "event": {
+      "month": "June",
+      "status": "Active",
+      "title": "Plovdiv Jazz Fest",
+      "location": "Plovdiv, Bulgaria",
+      "description": "Plovdiv Jazz Fest was established in 2015. Today it is among the most significant and prestigious international jazz festivals in Bulgaria."
+    },
+    "attractions": "🏛️ Attractions",
+    "markAsVisited": "Mark as visited",
+    "places": {
+      "sofiaChurch": "St. Sofia Church",
+      "nevskyCathedral": "Alexander Nevsky Cathedral",
+      "artGallery": "Sofia Art Gallery",
+      "historyMuseum": "National History Museum",
+      "rilaMonastery": "Rila Monastery",
+      "plovdivOldTown": "Plovdiv Old Town"
+    },
+    "cities": {
+      "plovdiv": "Plovdiv",
+      "staraZagora": "Stara Zagora",
+      "velikoTarnovo": "Veliko Tarnovo"
+    }
+  }
+}

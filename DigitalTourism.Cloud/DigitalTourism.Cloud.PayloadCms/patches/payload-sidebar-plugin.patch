@@ -1,0 +1,85 @@
+diff --git a/dist/components/index.js b/dist/components/index.js
+index c7a55663ddb6b3f772d5dc8db87c7469d02df4d4..77761d9dbe824fe77a14abfc35ca7a013d1ab598 100644
+--- a/dist/components/index.js
++++ b/dist/components/index.js
+@@ -901,7 +901,7 @@ var NavLink = /* @__PURE__ */ __name(({
+   const { icons, classPrefix, enablePinning } = useNavConfig();
+   const customIcons = useCustomIcons();
+   const badge = useBadge(slug || "");
+-  const isActive = !external && (pathname === href || pathname.startsWith(`${href}/`));
++  const isActive = !external && (slug === "dashboard" ? pathname === href : (pathname === href || pathname.startsWith(`${href}/`)));
+   const extractedSlug = slug || id.replace("nav-global-", "").replace("nav-custom-", "").replace("nav-", "");
+   let iconName = "file";
+   if (customIcon) {
+diff --git a/dist/plugin/index.d.ts b/dist/plugin/index.d.ts
+index b4d911f06ba8236d4edcc725f36b3e3928c2a7cb..9cc1a840070ece8abeffaf6133f34cce6721487d 100644
+--- a/dist/plugin/index.d.ts
++++ b/dist/plugin/index.d.ts
+@@ -8,7 +8,7 @@ interface CustomLink {
+     /**
+      * Display label for the link
+      */
+-    label: string;
++    label: string | Record<string, string>;
+     /**
+      * URL path or full URL for the link
+      * - Relative paths: '/admin/custom-view'
+@@ -79,7 +79,7 @@ interface CustomGroup {
+  * Serializable custom link (icon as string key)
+  */
+ interface SerializableCustomLink {
+-    label: string;
++    label: string | Record<string, string>;
+     href: string;
+     group?: string;
+     icon?: string;
+diff --git a/dist/rsc/index.js b/dist/rsc/index.js
+index d50c345cd60bf2954baee1685cf8bec8f003aea6..fbc58a6def1a0444dbb3375e62e3354327a31bf2 100644
+--- a/dist/rsc/index.js
++++ b/dist/rsc/index.js
+@@ -86,13 +86,15 @@ async function getNavPrefs(req) {
+   }
+ }
+ __name(getNavPrefs, "getNavPrefs");
+-function customLinkToNavEntity(link) {
+-  const slug = `custom-${link.label.toLowerCase().replace(/\s+/g, "-")}`;
++function customLinkToNavEntity(link, i18n) {
++  const slugLabel = typeof link.label === "string" ? link.label : (link.label.en || Object.values(link.label)[0] || "custom");
++  const resolvedLabel = typeof link.label === "string" ? link.label : getTranslation(link.label, i18n);
++  const slug = `custom-${slugLabel.toLowerCase().replace(/\s+/g, "-")}`;
+   const isExternal = link.external ?? (link.href.startsWith("http://") || link.href.startsWith("https://") || link.href.startsWith("//"));
+   return {
+     slug,
+     type: "custom",
+-    label: link.label,
++    label: resolvedLabel,
+     href: link.href,
+     external: isExternal,
+     icon: link.icon,
+@@ -102,7 +104,7 @@ function customLinkToNavEntity(link) {
+   };
+ }
+ __name(customLinkToNavEntity, "customLinkToNavEntity");
+-function mergeCustomLinks(groups, customLinks = [], customGroups = []) {
++function mergeCustomLinks(groups, customLinks = [], customGroups = [], i18n) {
+   if (!customLinks.length && !customGroups.length) {
+     return groups;
+   }
+@@ -139,7 +141,7 @@ function mergeCustomLinks(groups, customLinks = [], customGroups = []) {
+   for (const link of customLinks) {
+     const linkGroupLabel = link.group ?? "Custom";
+     const primaryGroupLabel = aliasMap.get(linkGroupLabel) || linkGroupLabel;
+-    const navEntity = customLinkToNavEntity(link);
++    const navEntity = customLinkToNavEntity(link, i18n);
+     let targetGroup = groupMap.get(primaryGroupLabel);
+     if (!targetGroup) {
+       targetGroup = {
+@@ -243,7 +245,7 @@ async function CustomNav(props) {
+       label: typeof e.label === "string" ? e.label : getTranslation(e.label, i18n)
+     }))
+   }));
+-  const mergedGroups = mergeCustomLinks(payloadGroups, customLinks, customGroups);
++  const mergedGroups = mergeCustomLinks(payloadGroups, customLinks, customGroups, i18n);
+   const sortedGroups = sortGroups(mergedGroups, groupOrder);
+   const navPreferences = await getNavPrefs(req);
+   const navConfig = {

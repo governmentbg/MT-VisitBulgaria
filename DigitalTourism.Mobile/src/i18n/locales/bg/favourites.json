@@ -1,0 +1,20 @@
+{
+  "title": "Любими",
+  "subtitle": "Места или събития, които искате да посетите",
+  "search": "Търсене",
+  "allTypes": "Всички",
+  "typeEvents": "Събития",
+  "typeHotels": "Хотели",
+  "typeAttractions": "Атракции",
+  "typeRestaurants": "Ресторанти",
+  "typeActivities": "Дейности",
+  "emptyTitle": "Все още няма любими",
+  "emptyDescription": "Започнете да разглеждате и запазвайте преживявания, които харесвате",
+  "emptyAction": "Разгледай",
+  "noResults": "Няма любими, съвпадащи с филтрите ви",
+  "clearFilters": "Изчисти филтрите",
+  "upcoming": "Предстоящо",
+  "removed": "Премахнато от любими",
+  "removeTitle": "Премахване от любими?",
+  "removeAction": "Премахни"
+}

@@ -1,0 +1,149 @@
+# Local development certificates
+k8s/certificates/local-dev-ca.crt
+
+DigitalTourism.Cloud/DigitalTourism.Cloud.AppHost/manifest.json
+DigitalTourism.Cloud/DigitalTourism.Cloud.AppHost/aspirate-output/
+
+# React Native / DigitalTourism.Mobile
+.DS_Store
+DigitalTourism.Mobile/ios/build/
+DigitalTourism.Mobile/android/build/
+DigitalTourism.Mobile/android/app/build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+DigitalTourism.Mobile/node_modules/
+npm-debug.log
+yarn-error.log
+DigitalTourism.Mobile/ios/Pods/
+.metro-health-check*
+DigitalTourism.Mobile/.env
+DigitalTourism.Mobile/.env.local
+DigitalTourism.Mobile/.env.*.local
+DigitalTourism.Mobile/src/data/mock/generated-data.json
+DigitalTourism.Mobile/.github/
+DigitalTourism.Mobile/plans/
+
+# .NET / Aspire
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# JetBrains Rider
+*.sln.iml
+
+# Node.js (for Payload CMS)
+DigitalTourism.Cloud/DigitalTourism.PayloadCMS/node_modules/
+DigitalTourism.Cloud/DigitalTourism.PayloadCMS/.env
+DigitalTourism.Cloud/DigitalTourism.PayloadCMS/.env.local
+DigitalTourism.Cloud/DigitalTourism.PayloadCMS/dist/
+DigitalTourism.Cloud/DigitalTourism.PayloadCMS/build/
+
+# Aspire
+.aspire/
+
+# Secrets
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+*.pfx
+*.p12
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+[Dd]ebugPS/
+[Rr]eleasePS/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Docker
+.dockerignore
+DigitalTourism.Mobile/src/services/api/mocks/generated-data.json
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/*.xml
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/media/*
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/media-events/*
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/import-intermediate/
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/import-events/
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/import-intermediate-urbo/
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/tsconfig.tsbuildinfo
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/import-hotels/
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/import-intermediate-v2/
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/import-restaurants/
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/import-v3/*
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/wp-extracted-pages/
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/wp-pages-cache/*
+DigitalTourism.Cloud/DigitalTourism.Cloud.PayloadCms/data/import-pages/*

@@ -1,0 +1,424 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Self-hosted Montserrat (variable, weights 100–900) ─── */
+@font-face { font-family: 'Montserrat'; font-style: normal; font-display: swap; font-weight: 100 900; src: url('/fonts/montserrat-cyrillic-ext-wght-normal.woff2') format('woff2'); unicode-range: U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+@font-face { font-family: 'Montserrat'; font-style: normal; font-display: swap; font-weight: 100 900; src: url('/fonts/montserrat-cyrillic-wght-normal.woff2') format('woff2'); unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+@font-face { font-family: 'Montserrat'; font-style: normal; font-display: swap; font-weight: 100 900; src: url('/fonts/montserrat-latin-ext-wght-normal.woff2') format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Montserrat'; font-style: normal; font-display: swap; font-weight: 100 900; src: url('/fonts/montserrat-latin-wght-normal.woff2') format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+/* ─── Self-hosted Montserrat Alternates (weight 500 + 700) ─── */
+@font-face { font-family: 'Montserrat Alternates'; font-style: normal; font-display: swap; font-weight: 500; src: url('/fonts/montserrat-alternates-cyrillic-ext-500-normal.woff2') format('woff2'); unicode-range: U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+@font-face { font-family: 'Montserrat Alternates'; font-style: normal; font-display: swap; font-weight: 500; src: url('/fonts/montserrat-alternates-cyrillic-500-normal.woff2') format('woff2'); unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+@font-face { font-family: 'Montserrat Alternates'; font-style: normal; font-display: swap; font-weight: 500; src: url('/fonts/montserrat-alternates-latin-ext-500-normal.woff2') format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Montserrat Alternates'; font-style: normal; font-display: swap; font-weight: 500; src: url('/fonts/montserrat-alternates-latin-500-normal.woff2') format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Montserrat Alternates'; font-style: normal; font-display: swap; font-weight: 700; src: url('/fonts/montserrat-alternates-cyrillic-ext-700-normal.woff2') format('woff2'); unicode-range: U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F; }
+@font-face { font-family: 'Montserrat Alternates'; font-style: normal; font-display: swap; font-weight: 700; src: url('/fonts/montserrat-alternates-cyrillic-700-normal.woff2') format('woff2'); unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116; }
+@font-face { font-family: 'Montserrat Alternates'; font-style: normal; font-display: swap; font-weight: 700; src: url('/fonts/montserrat-alternates-latin-ext-700-normal.woff2') format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Montserrat Alternates'; font-style: normal; font-display: swap; font-weight: 700; src: url('/fonts/montserrat-alternates-latin-700-normal.woff2') format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+/* ─── Self-hosted Sensa Sans (display font from legacy site) ─── */
+@font-face { font-family: 'Sensa Sans'; font-style: normal; font-display: swap; font-weight: 400; src: url('/fonts/sensa-sans-regular.woff2') format('woff2'); }
+
+/* Fallback font metrics to reduce CLS */
+@font-face { font-family: 'Montserrat Fallback'; src: local('Arial'); ascent-override: 85.79%; descent-override: 22.25%; line-gap-override: 0.00%; size-adjust: 112.83%; }
+@font-face { font-family: 'Montserrat Alternates Fallback'; src: local('Arial'); ascent-override: 83.96%; descent-override: 21.77%; line-gap-override: 0.00%; size-adjust: 115.30%; }
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: unset;
+    font-weight: unset;
+  }
+
+  :root {
+    /* Font stacks */
+    --font-montserrat: 'Montserrat', 'Montserrat Fallback', sans-serif;
+    --font-montserrat-alt: 'Montserrat Alternates', 'Montserrat Alternates Fallback', sans-serif;
+    --font-display: 'Sensa Sans', sans-serif;
+
+    /* Primary Green */
+    --color-primary-50: #E6F8F6;
+    --color-primary-100: #B0EAE4;
+    --color-primary-200: #8AE0D7;
+    --color-primary-300: #54D1C4;
+    --color-primary-400: #33C9B9;
+    --color-primary-500: #00BBA7;
+    --color-primary-600: #00AA98;
+    --color-primary-700: #008577;
+    --color-primary-800: #00675C;
+    --color-primary-900: #004F46;
+
+    /* Greyscale */
+    --color-grey-0: #F8F9FB;
+    --color-grey-25: #F6F8FA;
+    --color-grey-50: #ECEFF3;
+    --color-grey-100: #F2F4F7;
+    --color-grey-200: #C1C7CF;
+    --color-grey-300: #A4ABB8;
+    --color-grey-400: #808897;
+    --color-grey-500: #666D80;
+    --color-grey-600: #353849;
+    --color-grey-700: #272835;
+    --color-grey-800: #1A1B25;
+    --color-grey-900: #0D0D12;
+
+    /* Warning */
+    --color-warning-0: #FFF6E0;
+    --color-warning-25: #F9ECCB;
+    --color-warning-50: #FBD982;
+    --color-warning-100: #FFBD4C;
+    --color-warning-200: #956321;
+    --color-warning-300: #5B3D1E;
+
+    /* Error */
+    --color-error-0: #FEEFF2;
+    --color-error-25: #FADAE1;
+    --color-error-50: #ED8296;
+    --color-error-100: #DF1C41;
+    --color-error-200: #95122B;
+    --color-error-300: #710E21;
+
+    /* Status Colors (for Pills) */
+    --color-info-bg: #B2DDFF;
+    --color-info-text: #2E90FA;
+    --color-success-bg: var(--color-primary-500);
+    --color-success-text: var(--color-primary-50);
+    --color-warning-bg: #FCDA83;
+    --color-warning-text: #966422;
+    --color-error-bg: var(--color-error-50);
+    --color-error-text: var(--color-error-100);
+    --color-brand-bg: var(--color-primary-50);
+    --color-brand-text: var(--color-primary-900);
+
+    /* Heading */
+    --color-heading: #1D293D;
+
+    /* Button specific */
+    --color-button-primary: #1D2939;
+    --color-button-primary-hover: #344054;
+    --color-button-disabled-opacity: 0.5;
+
+    /* Input specific */
+    --color-input-border: #EAECF0;
+    --color-input-placeholder: #98A2B3;
+    --color-input-label: #101828;
+    --color-input-focus-ring: #00BBA7;
+
+    /* Countdown */
+    --color-countdown: rgb(0 187 167 / 0.4);
+    --color-countdown-stroke: rgb(0 187 167 / 0.6);
+
+    /* Footer */
+    --color-footer-bg: #014745;
+
+    /* Semantic mappings */
+    --color-primary: var(--color-primary-700);
+    --color-primary-foreground: #FFFFFF;
+    --color-secondary: var(--color-grey-100);
+    --color-secondary-foreground: var(--color-grey-800);
+    --color-background: #FFFFFF;
+    --color-foreground: var(--color-grey-900);
+    --color-muted: var(--color-grey-50);
+    --color-muted-foreground: var(--color-grey-500);
+    --color-accent: var(--color-primary-100);
+    --color-accent-foreground: var(--color-primary-900);
+    --color-card: var(--color-grey-25);
+    --color-card-foreground: var(--color-grey-900);
+    --color-popover: #FFFFFF;
+    --color-popover-foreground: var(--color-grey-900);
+    --color-destructive: var(--color-error-100);
+    --color-destructive-foreground: #FFFFFF;
+    --color-border: var(--color-grey-200);
+    --color-input: var(--color-grey-100);
+    --color-ring: var(--color-primary-400);
+    --color-success: var(--color-primary-300);
+    --color-warning: var(--color-warning-100);
+    --color-error: var(--color-error-100);
+
+    /* Radius */
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 1rem;
+
+    /* Shadows (from Figma: xs through 3xl) */
+    --shadow-xs: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    --shadow-sm: 0px 1px 3px 0px rgba(16, 24, 40, 0.1), 0px 1px 2px -1px rgba(16, 24, 40, 0.1);
+    --shadow-md: 0px 4px 6px -1px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.1);
+    --shadow-lg: 0px 10px 15px -3px rgba(16, 24, 40, 0.1), 0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+    --shadow-xl: 0px 20px 25px -5px rgba(16, 24, 40, 0.1), 0px 8px 10px -6px rgba(16, 24, 40, 0.1);
+    --shadow-2xl: 0px 25px 50px 0px rgba(0, 0, 0, 0.25);
+    --shadow-3xl: 0px 35px 60px -15px rgba(16, 24, 40, 0.35);
+    --shadow-header: 0px 32px 64px -12px rgba(10, 13, 18, 0.14);
+  }
+
+  [data-theme='dark'] {
+    --color-primary: var(--color-primary-300);
+    --color-primary-foreground: var(--color-grey-900);
+    --color-background: var(--color-grey-900);
+    --color-foreground: var(--color-grey-25);
+    --color-card: var(--color-grey-800);
+    --color-card-foreground: var(--color-grey-25);
+    --color-border: var(--color-grey-600);
+    --color-muted: var(--color-grey-800);
+    --color-muted-foreground: var(--color-grey-400);
+    --color-popover: var(--color-grey-800);
+    --color-popover-foreground: var(--color-grey-25);
+    --color-accent: var(--color-grey-700);
+    --color-accent-foreground: var(--color-grey-25);
+    --color-input: var(--color-grey-700);
+    --color-ring: var(--color-primary-600);
+    --color-secondary: var(--color-grey-700);
+    --color-secondary-foreground: var(--color-grey-25);
+    --color-destructive: var(--color-error-200);
+    --color-destructive-foreground: var(--color-grey-25);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground min-h-[100vh] flex flex-col font-sans overflow-x-hidden;
+  }
+}
+
+html {
+  opacity: 0;
+  overflow-x: hidden;
+}
+
+/* Ensure Radix Dialog / react-remove-scroll can lock scroll.
+   The global overflow-x:hidden on html/body prevents the shorthand overflow:hidden
+   from taking effect on the Y axis. These explicit rules fix it. */
+html:has(body[data-scroll-locked]) {
+  overflow: hidden !important;
+}
+
+body[data-scroll-locked] {
+  overflow: hidden !important;
+}
+
+html[data-theme='dark'],
+html[data-theme='light'] {
+  opacity: initial;
+}
+
+/* Nav tab pill — ::before pseudo-element creates a padded pill behind the text
+   without shifting layout. Used by transparent header themes for hover/active states. */
+.nav-tab-pill {
+  position: relative;
+}
+
+.nav-tab-pill::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: -6px -12px;
+  border-radius: 9999px;
+}
+
+/* SSR header theme — CSS :has() reads the server-rendered data-header-theme on <article>
+   to style the header correctly on first paint, before React hydrates and takes over.
+   Scoped to nav > div:first-child to avoid affecting the MegaMenu overlay. */
+body:has([data-header-theme='transparent-light']) header,
+body:has([data-header-theme='transparent-dark']) header {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+body:has([data-header-theme='transparent-light']) header > div > a:first-child img {
+  filter: none !important;
+  width: 108px !important;
+  height: 84px !important;
+}
+
+body:has([data-header-theme='transparent-dark']) header > div > a:first-child img {
+  width: 108px !important;
+  height: 84px !important;
+}
+
+body:has([data-header-theme='transparent-light']) header nav > div:first-child button,
+body:has([data-header-theme='transparent-light']) header nav > div:first-child a {
+  color: white;
+}
+
+/* Hero overlay — uniform tint + bottom-to-top navy gradient */
+.hero-overlay {
+  background-image:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    linear-gradient(0deg, rgba(15, 23, 43, 0.85) 0%, rgba(15, 23, 43, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* Card overlay — two-layer bottom gradient matching Figma */
+.card-overlay-gradient {
+  background-image:
+    linear-gradient(180deg, transparent 25.96%, rgba(0, 0, 0, 0.7) 90%),
+    linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.36) 100%);
+}
+
+/* Custom Leaflet Map Styles */
+.custom-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.leaflet-popup-content-wrapper {
+  padding: 0 !important;
+  border-radius: 1.5rem !important;
+  overflow: hidden;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  width: auto !important;
+}
+
+/* Let component Tailwind classes control link colors inside popups.
+   Leaflet sets a blue link color; we override with inherit so the
+   component's own text-* class applies. */
+.leaflet-container .leaflet-popup-content a[class] {
+  color: inherit;
+}
+.leaflet-container .leaflet-popup-content a[class*='bg-primary'] {                                                                                                          
+  color: white;                                                                                                                                                             
+}        
+.leaflet-container .leaflet-popup-content a[class*='bg-grey'] {                                                                                                          
+  color: var(--color-grey-900);
+}                                                                                                                                                                         
+      
+.leaflet-popup-tip {
+  background: white;
+}
+
+/* Faster popup fade */
+.leaflet-fade-anim .leaflet-popup {
+  transition: opacity 80ms linear !important;
+}
+
+/* Map Explorer marker resets */
+.city-marker,
+.experience-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Hide scrollbar for category chips */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Hide default Leaflet zoom controls */
+.leaflet-control-zoom {
+  display: none !important;
+}
+
+/* ─── Pages carousel: full-bleed ─── */
+
+.pages-carousel {
+  position: relative;
+  /* Break out of Container to span the full viewport */
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+/* ─── Trip Planner: hide site nav header and footer ─── */
+
+body:has(.trip-planner-root) > header,
+body:has(.trip-planner-root) header:not(.trip-planner-header),
+body:has(.trip-planner-root) footer {
+  display: none !important;
+}
+
+/* ─── Gallery libraries (inlined to avoid separate CSS chunks) ─── */
+
+/* react-photo-album/columns */
+.react-photo-album{display:flex}.react-photo-album,.react-photo-album *{box-sizing:border-box}.react-photo-album--track{align-items:flex-start;display:flex}.react-photo-album--photo{padding:calc(var(--react-photo-album--padding) * 1px);position:relative}.react-photo-album--image{width:100%;height:auto;aspect-ratio:var(--react-photo-album--photo-width) / var(--react-photo-album--photo-height);display:block}.react-photo-album--button{cursor:pointer;border:initial;background:initial}.react-photo-album--columns{justify-content:space-between}.react-photo-album--columns .react-photo-album--track{justify-content:space-between;row-gap:calc(var(--react-photo-album--spacing) * 1px);width:calc(( 100% - 1px * (var(--react-photo-album--columns) - 1) * var(--react-photo-album--spacing) - 2px * var(--react-photo-album--columns) * var(--react-photo-album--padding) - var(--react-photo-album--adjusted-gaps) * 1px ) * var(--react-photo-album--column-ratio) / var(--react-photo-album--total-ratio) + 2px * var(--react-photo-album--padding));flex-direction:column}.react-photo-album--columns .react-photo-album--photo{width:100%}
+
+/* yet-another-react-lightbox/styles */
+.yarl__fullsize{height:100%;width:100%}.yarl__relative{position:relative}.yarl__portal{bottom:0;left:0;opacity:0;overflow:hidden;position:fixed;right:0;top:0;transition:opacity var(--yarl__fade_animation_duration,.25s) var(--yarl__fade_animation_timing_function,ease);z-index:var(--yarl__portal_zindex,9999)}.yarl__portal_open{opacity:1}.yarl__container{background-color:var(--yarl__container_background_color,var(--yarl__color_backdrop,#000));bottom:0;left:0;outline:none;overflow:hidden;overscroll-behavior:var(--yarl__controller_overscroll_behavior,contain);position:absolute;right:0;top:0;touch-action:var(--yarl__controller_touch_action,none);-webkit-user-select:none;-moz-user-select:none;user-select:none}.yarl__carousel{align-content:center;align-items:stretch;display:flex;flex:0 0 auto;height:100%;justify-content:center;opacity:var(--yarl__pull_opacity,1);transform:translate(var(--yarl__swipe_offset,0),var(--yarl__pull_offset,0));width:calc(100% + (var(--yarl__carousel_slides_count) - 1)*(100% + var(--yarl__carousel_spacing_px, 0)*1px + var(--yarl__carousel_spacing_percent, 0)*1%))}.yarl__carousel_with_slides{-moz-column-gap:calc(var(--yarl__carousel_spacing_px, 0)*1px + 100/(var(--yarl__carousel_slides_count)*100 + (var(--yarl__carousel_slides_count) - 1)*var(--yarl__carousel_spacing_percent, 0))*var(--yarl__carousel_spacing_percent, 0)*1%);column-gap:calc(var(--yarl__carousel_spacing_px, 0)*1px + 100/(var(--yarl__carousel_slides_count)*100 + (var(--yarl__carousel_slides_count) - 1)*var(--yarl__carousel_spacing_percent, 0))*var(--yarl__carousel_spacing_percent, 0)*1%)}.yarl__flex_center{align-content:center;align-items:center;display:flex;justify-content:center}.yarl__slide{flex:1;overflow:hidden;padding:calc(var(--yarl__carousel_padding_px, 0)*1px + 100/(var(--yarl__carousel_slides_count)*100 + (var(--yarl__carousel_slides_count) - 1)*var(--yarl__carousel_spacing_percent, 0))*var(--yarl__carousel_padding_percent, 0)*1%);position:relative}[dir=rtl] .yarl__slide{--yarl__direction:-1}.yarl__slide_image{max-height:100%;max-width:100%;-o-object-fit:contain;object-fit:contain;touch-action:var(--yarl__controller_touch_action,none);-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-touch-callout:none}.yarl__slide_image_cover{height:100%;-o-object-fit:cover;object-fit:cover;width:100%}.yarl__slide_image_loading{opacity:0}@media screen and (min-width:800px){.yarl__slide_wrapper:not(.yarl__slide_wrapper_interactive) .yarl__slide_image{-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0);-webkit-transform-style:preserve-3d}}.yarl__slide_placeholder{left:50%;line-height:0;position:absolute;top:50%;transform:translateX(-50%) translateY(-50%)}.yarl__slide_loading{animation:yarl__delayed_fadein 1s linear;color:var(--yarl__slide_icon_loading_color,var(--yarl__color_button,hsla(0,0%,100%,.8)))}.yarl__slide_loading line{animation:yarl__stroke_opacity 1s linear infinite}.yarl__slide_loading line:first-of-type{animation-delay:-1.875s}.yarl__slide_loading line:nth-of-type(2){animation-delay:-1.75s}.yarl__slide_loading line:nth-of-type(3){animation-delay:-1.625s}.yarl__slide_loading line:nth-of-type(4){animation-delay:-1.5s}.yarl__slide_loading line:nth-of-type(5){animation-delay:-1.375s}.yarl__slide_loading line:nth-of-type(6){animation-delay:-1.25s}.yarl__slide_loading line:nth-of-type(7){animation-delay:-1.125s}.yarl__slide_loading line:nth-of-type(8){animation-delay:-1s}.yarl__slide_error{color:var(--yarl__slide_icon_error_color,red);height:var(--yarl__slide_icon_error_size,48px);width:var(--yarl__slide_icon_error_size,48px)}@media (prefers-reduced-motion){.yarl__portal,.yarl__slide{transition:unset}.yarl__slide_loading,.yarl__slide_loading line{animation:unset}}.yarl__toolbar{bottom:auto;display:flex;justify-content:flex-end;left:auto;padding:var(--yarl__toolbar_padding,8px);position:absolute;right:0;top:0}[dir=rtl] .yarl__toolbar{bottom:auto;left:0;right:auto;top:0}.yarl__icon{height:var(--yarl__icon_size,32px);width:var(--yarl__icon_size,32px)}.yarl__button{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:var(--yarl__button_background_color,transparent);border:var(--yarl__button_border,0);color:var(--yarl__color_button,hsla(0,0%,100%,.8));cursor:pointer;filter:var(--yarl__button_filter,drop-shadow(2px 2px 2px rgba(0,0,0,.8)));line-height:0;margin:var(--yarl__button_margin,0);outline:none;padding:var(--yarl__button_padding,8px);-webkit-tap-highlight-color:transparent}.yarl__button:focus{color:var(--yarl__color_button_active,#fff)}.yarl__button:focus:not(:focus-visible){color:var(--yarl__color_button,hsla(0,0%,100%,.8))}.yarl__button:focus-visible{color:var(--yarl__color_button_active,#fff)}@media (hover:hover){.yarl__button:focus-visible:hover,.yarl__button:focus:hover,.yarl__button:hover{color:var(--yarl__color_button_active,#fff)}}.yarl__button:disabled{color:var(--yarl__color_button_disabled,hsla(0,0%,100%,.4));cursor:default}.yarl__navigation_next,.yarl__navigation_prev{padding:var(--yarl__navigation_button_padding,24px 16px);position:absolute;top:50%;transform:translateY(-50%)}.yarl__navigation_prev{left:0}[dir=rtl] .yarl__navigation_prev{left:unset;right:0;transform:translateY(-50%) rotate(180deg)}.yarl__navigation_next{right:0}[dir=rtl] .yarl__navigation_next{left:0;right:unset;transform:translateY(-50%) rotate(180deg)}.yarl__no_scroll{height:100%;overflow:hidden;overscroll-behavior:none}@keyframes yarl__delayed_fadein{0%{opacity:0}80%{opacity:0}to{opacity:1}}@keyframes yarl__stroke_opacity{0%{stroke-opacity:1}to{stroke-opacity:.125}}
+
+/* yet-another-react-lightbox/plugins/counter */
+.yarl__counter{bottom:var(--yarl__counter_bottom,unset);color:var(--yarl__counter_color,var(--yarl__color_button,hsla(0,0%,100%,.8)));filter:var(--yarl__counter_filter,drop-shadow(2px 2px 2px rgba(0,0,0,.8)));left:var(--yarl__counter_left,0);line-height:var(--yarl__counter_line_height,var(--yarl__icon_size,32px));margin:var(--yarl__counter_margin,var(--yarl__toolbar_padding,8px));padding:var(--yarl__counter_padding,var(--yarl__button_padding,8px));position:var(--yarl__counter_position,absolute);right:var(--yarl__counter_right,unset);top:var(--yarl__counter_top,0);-webkit-user-select:var(--yarl__counter_user_select,none);-moz-user-select:var(--yarl__counter_user_select,none);user-select:var(--yarl__counter_user_select,none)}
+
+/* yet-another-react-lightbox/plugins/thumbnails */
+.yarl__thumbnails{display:flex;height:100%}.yarl__thumbnails_bottom,.yarl__thumbnails_end .yarl__thumbnails_track,.yarl__thumbnails_start .yarl__thumbnails_track,.yarl__thumbnails_top{flex-direction:column}.yarl__thumbnails_wrapper{flex:1;position:relative}.yarl__thumbnails_container{background-color:var(--yarl__thumbnails_container_background_color,var(--yarl__color_backdrop,#000));flex:0 0 auto;overflow:hidden;padding:var(--yarl__thumbnails_container_padding,16px);position:relative;-webkit-user-select:none;-moz-user-select:none;user-select:none;-webkit-touch-callout:none}.yarl__thumbnails_vignette{pointer-events:none;position:absolute;--yarl__thumbnails_vignette_size:12%}@media (min-width:1200px){.yarl__thumbnails_vignette{--yarl__thumbnails_vignette_size:8%}}@media (min-width:2000px){.yarl__thumbnails_vignette{--yarl__thumbnails_vignette_size:5%}}.yarl__thumbnails_bottom .yarl__thumbnails_vignette,.yarl__thumbnails_top .yarl__thumbnails_vignette{background:linear-gradient(to right,var(--yarl__color_backdrop,#000) 0,transparent var(--yarl__thumbnails_vignette_size,12%) calc(100% - var(--yarl__thumbnails_vignette_size, 12%)),var(--yarl__color_backdrop,#000) 100%);height:100%;left:0;right:0}.yarl__thumbnails_end .yarl__thumbnails_vignette,.yarl__thumbnails_start .yarl__thumbnails_vignette{background:linear-gradient(to bottom,var(--yarl__color_backdrop,#000) 0,transparent var(--yarl__thumbnails_vignette_size,12%) calc(100% - var(--yarl__thumbnails_vignette_size, 12%)),var(--yarl__color_backdrop,#000) 100%);bottom:0;top:0;width:100%}.yarl__thumbnails_track{gap:var(--yarl__thumbnails_thumbnail_gap,16px);outline:none}.yarl__thumbnails_thumbnail{-webkit-appearance:none;-moz-appearance:none;appearance:none;background:var(--yarl__thumbnails_thumbnail_background,#000);border-color:var(--yarl__thumbnails_thumbnail_border_color,var(--yarl__color_button,hsla(0,0%,100%,.8)));border-radius:var(--yarl__thumbnails_thumbnail_border_radius,4px);border-style:var(--yarl__thumbnails_thumbnail_border_style,solid);border-width:var(--yarl__thumbnails_thumbnail_border,1px);cursor:pointer;flex:0 0 auto;-webkit-tap-highlight-color:transparent;box-sizing:content-box;height:var(--yarl__thumbnails_thumbnail_height,80px);outline:none;overflow:hidden;padding:var(--yarl__thumbnails_thumbnail_padding,4px);position:relative;width:var(--yarl__thumbnails_thumbnail_width,120px)}.yarl__thumbnails_thumbnail_active{border-color:var(--yarl__thumbnails_thumbnail_active_border_color,var(--yarl__color_button_active,#fff))}.yarl__thumbnails_thumbnail_fadein{animation:yarl__thumbnails_thumbnail_fadein var(--yarl__thumbnails_thumbnail_fadein_duration,.5s) ease-in-out var(--yarl__thumbnails_thumbnail_fadein_delay,0s) forwards;opacity:0}.yarl__thumbnails_thumbnail_fadeout{animation:yarl__thumbnails_thumbnail_fadeout var(--yarl__thumbnails_thumbnail_fadeout_duration,.5s) ease-in-out var(--yarl__thumbnails_thumbnail_fadeout_delay,0s) forwards;cursor:unset}.yarl__thumbnails_thumbnail_placeholder{cursor:unset;visibility:hidden}.yarl__thumbnails_thumbnail:focus{box-shadow:var(--yarl__thumbnails_thumbnail_focus_box_shadow,#000 0 0 0 2px,var(--yarl__color_button,hsla(0,0%,100%,.8)) 0 0 0 4px)}.yarl__thumbnails_thumbnail:focus:not(:focus-visible){box-shadow:unset}.yarl__thumbnails_thumbnail:focus-visible{box-shadow:var(--yarl__thumbnails_thumbnail_focus_box_shadow,#000 0 0 0 2px,var(--yarl__color_button,hsla(0,0%,100%,.8)) 0 0 0 4px)}.yarl__thumbnails_thumbnail_icon{color:var(--yarl__thumbnails_thumbnail_icon_color,var(--yarl__color_button,hsla(0,0%,100%,.8)));filter:var(--yarl__thumbnails_thumbnail_icon_filter,drop-shadow(2px 2px 2px rgba(0,0,0,.8)));height:var(--yarl__thumbnails_thumbnail_icon_size,32px);left:50%;position:absolute;top:50%;transform:translateX(-50%) translateY(-50%);width:var(--yarl__thumbnails_thumbnail_icon_size,32px)}@keyframes yarl__thumbnails_thumbnail_fadein{0%{opacity:0}to{opacity:1}}@keyframes yarl__thumbnails_thumbnail_fadeout{0%{opacity:1}to{opacity:0}}
+
+/* ─── Lightbox UI overrides ─── */
+
+/* Navigation buttons — pill-shaped */
+.yarl__navigation_prev,
+.yarl__navigation_next {
+  background: #1a1a1a;
+  border-radius: 9999px;
+  padding: 12px;
+  margin: 0 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background 0.2s ease;
+}
+.yarl__navigation_prev:hover,
+.yarl__navigation_next:hover {
+  background: #333;
+}
+
+/* Toolbar buttons — rounded */
+.yarl__button {
+  border-radius: 9999px;
+  padding: 10px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.yarl__button:hover {
+  background: #222;
+}
+
+/* Counter — pill style */
+.yarl__counter {
+  background: #1a1a1a;
+  border-radius: 9999px;
+  padding: 4px 14px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  margin: 12px;
+}
+
+/* Thumbnails — cover images, no gaps */
+.yarl__thumbnails_thumbnail {
+  padding: 0;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: transparent;
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+.yarl__thumbnails_thumbnail_active {
+  border-color: #fff;
+}
+.yarl__thumbnails_thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Thumbnails container */
+.yarl__thumbnails_container {
+  background-color: #000;
+  padding: 12px 16px;
+}
+
+/* Remove vignette fade on thumbnail edges */
+.yarl__thumbnails_vignette {
+  display: none;
+}

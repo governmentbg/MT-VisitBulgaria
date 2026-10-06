@@ -1,0 +1,18 @@
+@import '@payloadcms/ui/scss';
+
+.toolkit-view {
+  padding-top: base(1);
+
+  &__panel {
+    padding: base(1.5) 0;
+  }
+
+  &__panel-description {
+    color: var(--theme-elevation-500);
+    margin: 0 0 base(1) 0;
+  }
+
+  &__panel-content {
+    padding-top: base(0.5);
+  }
+}

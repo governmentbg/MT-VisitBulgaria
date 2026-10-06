@@ -1,0 +1,24 @@
+{
+  "localization": {
+    "labels": {
+      "translations": "Translations",
+      "translationStatus": "Translation Status",
+      "complete": "Complete",
+      "partial": "Partial",
+      "missing": "Missing",
+      "fieldsTranslated": "{{translated}}/{{total}} fields",
+      "noData": "No data",
+      "clickToEdit": "Click to edit",
+      "localeHelpText": "All text fields are saved for the selected language. Switch the language to edit a different translation."
+    },
+    "copyFromLocale": "Copy from locale",
+    "selectSourceLocale": "Select a source locale",
+    "copyFromDescription": "Copy data from {{source}} into {{target}}",
+    "modal": {
+      "unsavedChangesTitle": "Unsaved Changes",
+      "unsavedChangesMessage": "You have unsaved changes. Switching locale will discard them. Do you want to continue?",
+      "stayOnPage": "Stay on this page",
+      "discardAndSwitch": "Discard and switch"
+    }
+  }
+}

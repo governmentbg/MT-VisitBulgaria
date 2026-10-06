@@ -1,0 +1,6 @@
+@DigitalTourism.Cloud.ApiService_HostAddress = http://localhost:5082
+
+GET {{DigitalTourism.Cloud.ApiService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,23 @@
+{
+  "title": "Attraction",
+  "about": "About",
+  "visitDuration": "Visit Duration",
+  "notFound": {
+    "title": "Attraction Not Found",
+    "message": "The attraction you're looking for doesn't exist."
+  },
+  "fields": {
+    "about": "About",
+    "visitDuration": "Visit Duration",
+    "location": "Location",
+    "rating": "Rating",
+    "minutes": "{{count}} minute",
+    "minutes_other": "{{count}} minutes",
+    "hours": "{{count}} hour",
+    "hours_other": "{{count}} hours"
+  },
+  "errors": {
+    "notFound": "Attraction Not Found",
+    "notFoundMessage": "The attraction you're looking for doesn't exist or has been removed."
+  }
+}

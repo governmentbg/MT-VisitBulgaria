@@ -1,0 +1,62 @@
+{
+  "title": "Събития",
+  "subtitle": "Открийте какво се случва в България",
+  "searchPlaceholder": "Търси събитие...",
+  "status": {
+    "active": "Активно",
+    "upcoming": "Предстоящо",
+    "past": "Минало",
+    "happeningNow": "Провежда се в момента",
+    "eventEnded": "Събитието приключи"
+  },
+  "countdown": {
+    "days": "Дни",
+    "hours": "Часа",
+    "min": "Минути",
+    "sec": "Секунди"
+  },
+  "categories": {
+    "culture": "Култура",
+    "entertainment": "Развлечения",
+    "music": "Музика",
+    "business": "Бизнес"
+  },
+  "filters": {
+    "title": "Филтри",
+    "clear": "Изчисти",
+    "categories": "Категории",
+    "tags": "Етикети",
+    "region": "Регион",
+    "municipality": "Община",
+    "city": "Град",
+    "organiser": "Организатор",
+    "apply": "Приложи филтри",
+    "activeCount": "{{count}} активни"
+  },
+  "about": "За събитието",
+  "eventPeriod": "Период на събитието",
+  "ticketPrice": "Цена на билет",
+  "organizer": "Организатор",
+  "noEvents": {
+    "title": "Няма намерени събития",
+    "message": "Няма събития, отговарящи на вашите филтри."
+  },
+  "notFound": {
+    "title": "Събитието не е намерено",
+    "message": "Събитието, което търсите, не съществува."
+  },
+  "fields": {
+    "eventPeriod": "Период на събитието",
+    "description": "Описание",
+    "location": "Местоположение",
+    "ticketPrice": "Цена на билет",
+    "organizer": "Организатор",
+    "website": "Уебсайт",
+    "contact": "Контакт",
+    "free": "Безплатно"
+  },
+  "errors": {
+    "notFound": "Събитието не е намерено",
+    "notFoundMessage": "Събитието, което търсите, не съществува или е премахнато."
+  }
+}

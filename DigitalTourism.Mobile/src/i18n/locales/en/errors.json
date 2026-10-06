@@ -1,0 +1,23 @@
+{
+  "network": {
+    "failed": "Network request failed",
+    "timeout": "Request timed out",
+    "noConnection": "No internet connection"
+  },
+  "general": {
+    "unknown": "An unknown error occurred",
+    "tryAgain": "Please try again"
+  },
+  "screen": {
+    "title": "Something went wrong",
+    "subtitle": "We couldn't load this content. Please check your connection and try again.",
+    "retry": "Try again"
+  },
+  "audio": {
+    "playbackFailed": "Audio playback failed",
+    "playbackFailedMessage": "Could not play the audio. Please try again."
+  },
+  "link": {
+    "openFailed": "Could not open link"
+  }
+}

@@ -1,0 +1,28 @@
+/* Block skeleton preview styles */
+.block-skeleton-wrapper {
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.block-skeleton-line {
+  background-color: var(--theme-elevation-150);
+  border-radius: 4px;
+}
+
+.block-skeleton-image {
+  background-color: var(--theme-elevation-200);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--theme-elevation-400);
+  font-size: 0.7rem;
+}
+
+.block-skeleton-card {
+  border: 1px solid var(--theme-elevation-200);
+  border-radius: 6px;
+  overflow: hidden;
+}

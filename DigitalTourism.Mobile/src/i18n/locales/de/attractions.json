@@ -1,0 +1,23 @@
+{
+  "title": "Sehenswürdigkeit",
+  "about": "Über",
+  "visitDuration": "Besuchsdauer",
+  "notFound": {
+    "title": "Attraktion nicht gefunden",
+    "message": "Die gesuchte Attraktion existiert nicht."
+  },
+  "fields": {
+    "about": "Über",
+    "visitDuration": "Besuchsdauer",
+    "location": "Standort",
+    "rating": "Bewertung",
+    "minutes": "{{count}} Minute",
+    "minutes_other": "{{count}} Minuten",
+    "hours": "{{count}} Stunde",
+    "hours_other": "{{count}} Stunden"
+  },
+  "errors": {
+    "notFound": "Attraktion nicht gefunden",
+    "notFoundMessage": "Die gesuchte Attraktion existiert nicht oder wurde entfernt."
+  }
+}

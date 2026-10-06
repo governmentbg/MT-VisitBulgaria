@@ -1,0 +1,26 @@
+{
+  "trackOf": "Трак {{current}} от {{total}}",
+  "audioGuides": "Аудио водачи ({{count}})",
+  "guide": "{{count}} водач",
+  "guide_other": "{{count}} водача",
+  "playAll": "Пусни всички",
+  "noTranscription": "Няма налична транскрипция",
+  "transcription": "Транскрипция",
+  "audioGuide": "Аудио водач",
+  "minutesLanguage": "{{minutes}} мин \u2022 {{language}}",
+  "protected": "Защитено",
+  "tapToStart": "Натиснете бутона за възпроизвеждане, за да започнете",
+  "segmentsPreview": "{{count}} сегмента \u2022 Натиснете за пълна транскрипция",
+  "a11y": {
+    "playPause": "Пусни или пауза",
+    "skipForward": "Напред 15 секунди",
+    "skipBackward": "Назад 15 секунди",
+    "nextTrack": "Следваща песен",
+    "previousTrack": "Предишна песен",
+    "seekSlider": "Напредък на аудиото",
+    "closePlayer": "Затвори плейъра",
+    "playGuide": "Пусни {{title}}",
+    "playAll": "Пусни всички гидове",
+    "transcriptionSeek": "Премини към {{time}}"
+  }
+}

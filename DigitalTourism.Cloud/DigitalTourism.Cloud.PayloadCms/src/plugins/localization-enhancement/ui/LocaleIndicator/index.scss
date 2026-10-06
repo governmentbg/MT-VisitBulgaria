@@ -1,0 +1,98 @@
+.locale-switcher {
+  // Render as first item in the meta list
+  order: -1;
+
+  &__flags {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    // Extra padding so box-shadow on active flag isn't clipped
+    padding: 3px;
+  }
+
+  &__flag {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+    border-radius: 2px;
+    opacity: 0.8;
+    // Reset default button styles
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+
+    &:hover:not(:disabled) {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+
+    &:disabled {
+      cursor: default;
+    }
+  }
+
+  &__flag--active {
+    opacity: 1;
+
+    // Ring around the active locale flag (box-shadow avoids clipping)
+    .locale-switcher__flag-icon {
+      box-shadow: 0 0 0 1.5px var(--theme-bg), 0 0 0 3px var(--theme-elevation-800);
+      border-radius: 2px;
+    }
+  }
+
+  &__flag-icon {
+    width: 20px;
+    height: 14px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  &__indicator {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1.5px solid var(--theme-bg);
+  }
+
+  // Complete: full color flag, green dot
+  &__flag--complete {
+    .locale-switcher__flag-icon {
+      opacity: 1;
+    }
+
+    .locale-switcher__indicator {
+      background-color: #22c55e;
+    }
+  }
+
+  // Partial: full color flag, yellow/orange dot
+  &__flag--partial {
+    .locale-switcher__flag-icon {
+      opacity: 1;
+    }
+
+    .locale-switcher__indicator {
+      background-color: #f59e0b;
+    }
+  }
+
+  // Missing: greyscale + reduced opacity, red dot
+  &__flag--missing {
+    .locale-switcher__flag-icon {
+      opacity: 0.4;
+      filter: grayscale(100%);
+    }
+
+    .locale-switcher__indicator {
+      background-color: #ef4444;
+    }
+  }
+}

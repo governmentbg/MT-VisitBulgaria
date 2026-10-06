@@ -1,0 +1,24 @@
+{
+  "localization": {
+    "labels": {
+      "translations": "Преводи",
+      "translationStatus": "Статус на превод",
+      "complete": "Завършен",
+      "partial": "Частичен",
+      "missing": "Липсващ",
+      "fieldsTranslated": "{{translated}}/{{total}} полета",
+      "noData": "Няма данни",
+      "clickToEdit": "Натиснете за редакция",
+      "localeHelpText": "Всички текстови полета се записват за избрания език. Превключете езика, за да редактирате превод."
+    },
+    "copyFromLocale": "Копирай от локал",
+    "selectSourceLocale": "Изберете изходен локал",
+    "copyFromDescription": "Копиране на данни от {{source}} в {{target}}",
+    "modal": {
+      "unsavedChangesTitle": "Незапазени промени",
+      "unsavedChangesMessage": "Имате незапазени промени. Превключването на езика ще ги отхвърли. Искате ли да продължите?",
+      "stayOnPage": "Остани на тази страница",
+      "discardAndSwitch": "Отхвърли и превключи"
+    }
+  }
+}

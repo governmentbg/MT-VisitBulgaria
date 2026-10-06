@@ -1,0 +1,23 @@
+{
+  "network": {
+    "failed": "Netzwerkanfrage fehlgeschlagen",
+    "timeout": "Zeitüberschreitung der Anfrage",
+    "noConnection": "Keine Internetverbindung"
+  },
+  "general": {
+    "unknown": "Ein unbekannter Fehler ist aufgetreten",
+    "tryAgain": "Bitte versuchen Sie es erneut"
+  },
+  "screen": {
+    "title": "Etwas ist schiefgelaufen",
+    "subtitle": "Der Inhalt konnte nicht geladen werden. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "retry": "Erneut versuchen"
+  },
+  "audio": {
+    "playbackFailed": "Audiowiedergabe fehlgeschlagen",
+    "playbackFailedMessage": "Das Audio konnte nicht abgespielt werden. Bitte versuchen Sie es erneut."
+  },
+  "link": {
+    "openFailed": "Link konnte nicht geöffnet werden"
+  }
+}

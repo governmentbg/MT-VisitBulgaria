@@ -1,0 +1,184 @@
+@import '@payloadcms/ui/scss';
+
+.experience-listing-preview {
+  margin-bottom: base(1.5);
+
+  // ─── Inline settings panel ───
+
+  // Force all direct children of grid rows to fill their cell
+  &__row > * {
+    min-width: 0;
+    width: 100% !important;
+  }
+
+  // Normalize Payload field label padding across different field types
+  &__row .field-label {
+    padding-bottom: 0;
+  }
+
+  &__field {
+    margin-bottom: 0;
+  }
+
+  &__row {
+    display: grid;
+    gap: base(0.5);
+    margin-bottom: base(0.75);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    // Row 1: Default Filters — 3 columns
+    &--filters {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    // Row 2: Display Settings — 4 columns
+    &--display {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    // Row 3: Features — auto columns
+    &--features {
+      grid-template-columns: auto auto;
+      justify-content: start;
+      gap: base(1.5);
+    }
+  }
+
+  &__settings {
+    margin-bottom: base(1);
+  }
+
+  // Header with result count
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: base(0.5);
+  }
+
+  &__count {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--theme-elevation-500);
+  }
+
+  // Grid container — uses configured column count via CSS variable
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(var(--preview-cols, 4), 1fr);
+    gap: base(0.5);
+    transition: opacity 0.2s ease;
+
+    &--loading {
+      opacity: 0.5;
+    }
+  }
+
+  // Individual card
+  &__card {
+    background: var(--theme-elevation-0);
+    border: 1px solid var(--theme-elevation-150);
+    border-radius: base(0.25);
+    overflow: hidden;
+    transition: border-color 0.15s ease;
+
+    &:hover {
+      border-color: var(--theme-elevation-300);
+    }
+  }
+
+  // Card thumbnail area
+  &__card-thumbnail {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    background: var(--theme-elevation-50);
+    position: relative;
+  }
+
+  &__card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__card-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--theme-elevation-100);
+    color: var(--theme-elevation-400);
+    font-size: 1.5rem;
+  }
+
+  // Card info area
+  &__card-info {
+    padding: base(0.375);
+  }
+
+  &__card-type {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--theme-elevation-400);
+    margin-bottom: base(0.125);
+  }
+
+  &__card-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--theme-elevation-800);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__card-city {
+    font-size: 0.75rem;
+    color: var(--theme-elevation-400);
+    margin-top: base(0.125);
+  }
+
+  // Skeleton loading placeholders
+  &__skeleton-bar {
+    background: var(--theme-elevation-100);
+    border-radius: base(0.125);
+
+    &--type {
+      height: 0.625rem;
+      width: 3rem;
+      margin-bottom: base(0.25);
+    }
+
+    &--title {
+      height: 0.875rem;
+      width: 75%;
+      margin-bottom: base(0.2);
+    }
+
+    &--city {
+      height: 0.625rem;
+      width: 50%;
+    }
+  }
+
+  // Empty state
+  &__empty {
+    padding: base(2);
+    text-align: center;
+    background: var(--theme-elevation-50);
+    border: 1px dashed var(--theme-elevation-200);
+    border-radius: base(0.25);
+    color: var(--theme-elevation-500);
+
+    p {
+      margin: 0;
+      font-size: 0.875rem;
+    }
+  }
+}

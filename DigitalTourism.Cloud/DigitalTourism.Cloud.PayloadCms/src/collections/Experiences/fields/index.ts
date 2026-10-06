@@ -1,0 +1,6 @@
+export { sharedFields } from './sharedFields'
+export { hotelFields } from './hotelFields'
+export { restaurantFields } from './restaurantFields'
+export { activityFields } from './activityFields'
+export { attractionFields } from './attractionFields'
+export { eventFields } from './eventFields'

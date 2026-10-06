@@ -1,0 +1,62 @@
+{
+  "title": "События",
+  "subtitle": "Узнайте, что происходит в Болгарии",
+  "searchPlaceholder": "Поиск события...",
+  "status": {
+    "active": "Активное",
+    "upcoming": "Предстоящее",
+    "past": "Прошедшее",
+    "happeningNow": "Проходит сейчас",
+    "eventEnded": "Мероприятие завершено"
+  },
+  "countdown": {
+    "days": "Дни",
+    "hours": "Часы",
+    "min": "Минуты",
+    "sec": "Секунды"
+  },
+  "categories": {
+    "culture": "Культура",
+    "entertainment": "Развлечения",
+    "music": "Музыка",
+    "business": "Бизнес"
+  },
+  "filters": {
+    "title": "Фильтры",
+    "clear": "Очистить",
+    "categories": "Категории",
+    "tags": "Теги",
+    "region": "Регион",
+    "municipality": "Муниципалитет",
+    "city": "Город",
+    "organiser": "Организатор",
+    "apply": "Применить фильтры",
+    "activeCount": "{{count}} активных"
+  },
+  "about": "О событии",
+  "eventPeriod": "Период события",
+  "ticketPrice": "Цена билета",
+  "organizer": "Организатор",
+  "noEvents": {
+    "title": "События не найдены",
+    "message": "Нет событий, соответствующих вашим фильтрам."
+  },
+  "notFound": {
+    "title": "Событие не найдено",
+    "message": "Событие, которое вы ищете, не существует."
+  },
+  "fields": {
+    "eventPeriod": "Период события",
+    "description": "Описание",
+    "location": "Местоположение",
+    "ticketPrice": "Цена билета",
+    "organizer": "Организатор",
+    "website": "Веб-сайт",
+    "contact": "Контакт",
+    "free": "Бесплатно"
+  },
+  "errors": {
+    "notFound": "Событие не найдено",
+    "notFoundMessage": "Событие, которое вы ищете, не существует или было удалено."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "network": {
+    "failed": "Échec de la requête réseau",
+    "timeout": "La requête a expiré",
+    "noConnection": "Pas de connexion internet"
+  },
+  "general": {
+    "unknown": "Une erreur inconnue s'est produite",
+    "tryAgain": "Veuillez réessayer"
+  },
+  "screen": {
+    "title": "Une erreur est survenue",
+    "subtitle": "Impossible de charger ce contenu. Veuillez vérifier votre connexion et réessayer.",
+    "retry": "Réessayer"
+  },
+  "audio": {
+    "playbackFailed": "Échec de la lecture audio",
+    "playbackFailedMessage": "Impossible de lire l'audio. Veuillez réessayer."
+  },
+  "link": {
+    "openFailed": "Impossible d'ouvrir le lien"
+  }
+}

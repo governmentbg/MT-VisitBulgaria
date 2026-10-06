@@ -1,0 +1,4 @@
+PRODUCT_BUNDLE_IDENTIFIER = com.visitbulgaria.app.staging
+APP_DISPLAY_NAME = VB Staging
+DEEP_LINK_SCHEME = visitbulgaria-staging
+ENVFILE = .env.staging

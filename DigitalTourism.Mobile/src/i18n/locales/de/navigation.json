@@ -1,0 +1,22 @@
+{
+  "tabs": {
+    "explore": "Entdecken",
+    "events": "Veranstaltungen",
+    "routes": "Meine Reisen",
+    "favourites": "Favoriten",
+    "profile": "Profil"
+  },
+  "screens": {
+    "search": "Suche",
+    "eventDetail": "Veranstaltungsdetails",
+    "attractionDetail": "Attraktionsdetails",
+    "listDetail": "Listendetails",
+    "createList": "Liste erstellen",
+    "editList": "Liste bearbeiten",
+    "settings": "Einstellungen",
+    "editProfile": "Profil bearbeiten"
+  },
+  "searchPlaceholder": "Suche nach Orten, Veranstaltungen...",
+  "searchingFor": "Suche nach: {{query}}",
+  "startTyping": "Beginnen Sie mit der Eingabe, um zu suchen"
+}

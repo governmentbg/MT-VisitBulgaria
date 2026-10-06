@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/DigitalTourism.Cloud/">
+    <Project Path="DigitalTourism.Cloud.ApiGateway\DigitalTourism.Cloud.ApiGateway.csproj" />
+    <Project Path="DigitalTourism.Cloud.ApiService\DigitalTourism.Cloud.ApiService.csproj" />
+    <Project Path="DigitalTourism.Cloud.AppHost\DigitalTourism.Cloud.AppHost.csproj" />
+    <Project Path="DigitalTourism.Cloud.PayloadCms\DigitalTourism.Cloud.PayloadCMS.esproj">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="DigitalTourism.Cloud.ServiceDefaults\DigitalTourism.Cloud.ServiceDefaults.csproj" />
+  </Folder>
+</Solution>

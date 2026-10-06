@@ -1,0 +1,26 @@
+{
+  "trackOf": "Titel {{current}} von {{total}}",
+  "audioGuides": "Audioführungen ({{count}})",
+  "guide": "{{count}} Führung",
+  "guide_other": "{{count}} Führungen",
+  "playAll": "Alle abspielen",
+  "noTranscription": "Keine Transkription verfügbar",
+  "transcription": "Transkription",
+  "audioGuide": "Audioführung",
+  "minutesLanguage": "{{minutes}} Min \u2022 {{language}}",
+  "protected": "Geschützt",
+  "tapToStart": "Drücken Sie Play, um den Audioguide zu starten",
+  "segmentsPreview": "{{count}} Abschnitte \u2022 Drücken Sie Play für die vollständige Transkription",
+  "a11y": {
+    "playPause": "Abspielen oder Pause",
+    "skipForward": "15 Sekunden vorspulen",
+    "skipBackward": "15 Sekunden zurückspulen",
+    "nextTrack": "Nächster Titel",
+    "previousTrack": "Vorheriger Titel",
+    "seekSlider": "Audiowiedergabe",
+    "closePlayer": "Player schließen",
+    "playGuide": "{{title}} abspielen",
+    "playAll": "Alle Guides abspielen",
+    "transcriptionSeek": "Zu {{time}} springen"
+  }
+}
